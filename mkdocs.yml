@@ -18,7 +18,9 @@ nav:
           - 奖助学金申请: 08-Dream-Realization-Assistance/Scholar-Ship.md
           - 勤工俭学申请: 08-Dream-Realization-Assistance/Work-Study-Program.md
           - 国家助学贷款: campus-life/national-student-loan-FAQ.md
-  - 学术资源: academic-resources/index.md
+  - 学术资源: 
+      - academic-resources/index.md
+      - 一些关键概念: academic-resources/some-key-concepts.md
   - 成长通道: growth-path/index.md
   - 通识技能库:
       - general-skills/index.md
