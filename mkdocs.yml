@@ -125,6 +125,8 @@ extra_css:
 extra_javascript:
   - js/feedback.js
   - https://cn.vercount.one/js
+  - js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
   - abbr
@@ -138,7 +140,13 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.betterem
   - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
   - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
 
 plugins:
   - search:

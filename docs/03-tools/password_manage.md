@@ -12,20 +12,20 @@
 
 _按推荐顺序排序_
 
-| 软件名称                                                                              | 是否收费      | 在线/离线 | 跨平台情况 | 备注                                    |
+| 软件名称                                                           | 是否收费     | 在线/离线 | 跨平台情况 | 备注                           |
 | ------------------------------------------------------------------ | ------------ | --------- | ---------- | ------------------------------ |
-| [**Bitwarden**](https://bitwarden.com/)                                     | 常用功能免费 | 仅在线     | 全平台      | **懒得折腾直接选**                 |
-| [**Keepass**](https://keepass.info/)                                         | 完全免费      | 离线/在线 | Win          | 衍生品众多，可看作全平台         |
-| [**Keepass2Android**](https://github.com/PhilippC/keepass2android) | 完全免费      | 离线/在线 | Android     | Keepass 衍生                         |
-| [KeePassXC](https://keepassxc.org/)                                          | 完全免费      | 仅离线     | Mac+Win     | Keepass 衍生，就是同步麻烦      |
-| [KeepassDX](https://www.keepassdx.com/)                                     | 完全免费      | 仅离线     | Android     | Keepass 衍生，同步也麻烦         |
-| 密码（iOS 自带）                                                                    | 完全免费      | 离线/在线 | iOS          | 只能在苹果生态里使用              |
-| [KeePassium](https://keepassium.com/)                                        | 常用功能免费 | 离线/在线 | iOS          | Keepass 衍生，同步要付费         |
-| [1Password](https://1password.com/zh-cn)                                    | 14 天试用期  | 仅在线     | 全平台      | 收费负担不起                         |
-| [KeeWeb](https://keeweb.info/)                                                 | 完全免费      | 仅在线     | 全平台      | Keepass 衍生，稳定性差，需备份 |
-| [Enpass](https://www.enpass.io/)                                              | 基本功能免费 | 仅在线     | 全平台      |                                          |
-| [LastPass](https://www.lastpass.com/)                                        | 基本功能免费 | 仅在线     | 全平台      | **安全问题显著**                    |
-| 浏览器自带                                                                            | 完全免费      | 离线        | 全平台      | 建议**立即放弃**，极不安全      |
+| [**Bitwarden**](https://bitwarden.com/)                            | 常用功能免费 | 仅在线    | 全平台     | **懒得折腾直接选**             |
+| [**Keepass**](https://keepass.info/)                               | 完全免费     | 离线/在线 | Win        | 衍生品众多，可看作全平台       |
+| [**Keepass2Android**](https://github.com/PhilippC/keepass2android) | 完全免费     | 离线/在线 | Android    | Keepass 衍生                   |
+| [KeePassXC](https://keepassxc.org/)                                | 完全免费     | 仅离线    | Mac+Win    | Keepass 衍生，就是同步麻烦     |
+| [KeepassDX](https://www.keepassdx.com/)                            | 完全免费     | 仅离线    | Android    | Keepass 衍生，同步也麻烦       |
+| 密码（iOS 自带）                                                   | 完全免费     | 离线/在线 | iOS        | 只能在苹果生态里使用           |
+| [KeePassium](https://keepassium.com/)                              | 常用功能免费 | 离线/在线 | iOS        | Keepass 衍生，同步要付费       |
+| [1Password](https://1password.com/zh-cn)                           | 14 天试用期  | 仅在线    | 全平台     | 收费负担不起                   |
+| [KeeWeb](https://keeweb.info/)                                     | 完全免费     | 仅在线    | 全平台     | Keepass 衍生，稳定性差，需备份 |
+| [Enpass](https://www.enpass.io/)                                   | 基本功能免费 | 仅在线    | 全平台     |                                |
+| [LastPass](https://www.lastpass.com/)                              | 基本功能免费 | 仅在线    | 全平台     | **安全问题显著**               |
+| 浏览器自带                                                         | 完全免费     | 离线      | 全平台     | 建议**立即放弃**，极不安全     |
 
 > **Warning**
 >
