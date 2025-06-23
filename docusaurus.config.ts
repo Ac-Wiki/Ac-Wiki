@@ -38,6 +38,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+		  routeBasePath: '/', // 设置文档的根路径
           sidebarPath: './sidebars.ts',
           // 指向仓库内的文档源代码
           editUrl:
