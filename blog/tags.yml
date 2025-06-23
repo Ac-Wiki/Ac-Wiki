@@ -1,19 +1,9 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+Ac-Wiki:
+  label: Ac-Wiki
+  permalink: /Ac-Wiki
+  description: Ac-Wiki 的见解分享。
 
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+  description: Docusaurus 是 Facebook 的一个开源项目，用于构建文档网站。
