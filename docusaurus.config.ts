@@ -73,9 +73,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Ac-Wiki',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Ac-Wiki Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -109,34 +109,21 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Telegram 频道',
+              href: 'https://t.me/AcWiki',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Telegram 群组',
+              href: 'https://t.me/AcFourm',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'QQ 群组',
+              href: 'https://qm.qq.com/q/WJI3hgBcm4',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Ac-Wiki<br>使用 <a href="https://docusaurus.io/zh-CN/">Docusaurus</a> 构建`,
     },
     prism: {
       theme: prismThemes.github,
