@@ -2,20 +2,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+// 本文件运行于 Node.js - 请勿在此使用客户端代码（浏览器 API、JSX等）
 
 const config: Config = {
   title: 'Ac-Wiki',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: '属于大学生群体的真·青年大学习',
+  favicon: 'img/logo.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  // 实验性功能, 参阅 https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true, // 提高与即将发布的 Docusaurus v4 的兼容性，true 即为启用全部实验性功能
   },
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  // 此处设置为生产环境站点
+  url: 'https://docusaurus.ac-wiki.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -28,9 +28,6 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
@@ -42,10 +39,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // 指向仓库内的文档源代码
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Ac-Wiki/Ac-Wiki/tree/docusaurus-site',
         },
         blog: {
           showReadingTime: true,
@@ -53,10 +49,9 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // 指向仓库内的文档源代码
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Ac-Wiki/Ac-Wiki/tree/docusaurus-site',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -76,7 +71,7 @@ const config: Config = {
       title: 'Ac-Wiki',
       logo: {
         alt: 'Ac-Wiki Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -87,7 +82,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Ac-Wiki/Ac-Wiki',
           label: 'GitHub',
           position: 'right',
         },
