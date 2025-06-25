@@ -28,11 +28,13 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 ## 🎓 共建计划
 
-好久不见！高考已经结束，在此祝小朋友们金榜题名！
+好久不见！高考已经结束，在此祝小朋友们金榜题名！如果你有**志愿填报**的困惑，欢迎查看[这个文档](./choose-major/major.md)。
 
 距离本项目启动已有近一年时间，在暑假即将结束、新学期即将到来之际，我们将对 Ac-Wiki 进行新一轮的更新扩充，为即将踏入大学校门的同学们提供更全面的指导。
 
 后期我们会在频道中征集对特定板块的建议并汇总，项目主页稍后会同步更新，我们呼吁更多志愿者参与文档共建，共同打通高等教育的"最后一公里"💗
+
+~~临时~~[贡献文档](./drafts/CONTRIBUTING.md)
 
 [![提交建议](https://img.shields.io/static/v1?label=&message=提交建议&color=2196f3&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ac-Wiki/Ac-Wiki/issues/new)
 
