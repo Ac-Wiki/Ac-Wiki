@@ -34,7 +34,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 后期我们会在频道中征集对特定板块的建议并汇总，项目主页稍后会同步更新，我们呼吁更多志愿者参与文档共建，共同打通高等教育的"最后一公里"💗
 
-~~临时~~[贡献文档](./drafts/CONTRIBUTING.md)
+~~临时~~[贡献文档](./community-hub/CONTRIBUTING.md)
 
 [![提交建议](https://img.shields.io/static/v1?label=&message=提交建议&color=2196f3&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ac-Wiki/Ac-Wiki/issues/new)
 
