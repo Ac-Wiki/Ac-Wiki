@@ -20,5 +20,6 @@
 填报志愿是一件复杂的事情，因此我们认为**兴趣**是最重要的，这样你才有动力坚持学习下去。如果你想好了之后的职业规划，可以在填报志愿时注意专业与之后职业的**匹配性**和必要性。如果你什么没想好也没有关系，我们相信每一条路都有其独特的魅力。
 
 ## 致谢
-部分信息整理自[讨论组](https://t.me/AcFourm)
-Colleges.chat [项目组](https://github.com/CollegesChat)
+- 部分信息整理自[讨论组](https://t.me/AcFourm)
+
+- Colleges.chat [项目组](https://github.com/CollegesChat)
