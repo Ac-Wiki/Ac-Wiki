@@ -3,8 +3,11 @@
     志愿填报是步入成年人的你可以自己决定的事情，请遵从自己内心的选择，以下内容不保证时效性且仅供相关参考。
 
 ## 可能用到的工具
-[阳光高考-专业知识库](https://gaokao.chsi.com.cn/zyk/zybk/)  
-[学科评估结果](https://www.cdgdc.edu.cn/dslxkpgjggb/)
+- [阳光高考-专业知识库](https://gaokao.chsi.com.cn/zyk/zybk/)  
+
+- [学科评估结果](https://www.cdgdc.edu.cn/dslxkpgjggb/)   
+
+- [一些大学的生活质量](https://colleges.chat)
 
 ## 可能用到的信息来源
 - 当年以及前几年的分数线  
@@ -18,3 +21,4 @@
 
 ## 致谢
 部分信息整理自[讨论组](https://t.me/AcFourm)
+Colleges.chat [项目组](https://github.com/CollegesChat)
