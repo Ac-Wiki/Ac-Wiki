@@ -144,9 +144,9 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 ### 🏆 考赛介绍
 
 - 🚧 **学科等级**
-- ✅ [**专业技能**](./04-study/certification.md)
-- ✅ [**考试竞赛**](./04-study/study.md)
-- ✅ [**研招**](./04-study/yanzhao.md)
+- ✅ [**专业技能**](./general-skills/study/certification.md)
+- ✅ [**考试竞赛**](./general-skills/study/study.md)
+- ✅ [**研招**](./general-skills/study/yanzhao.md)
 - ✅ [**生化/环境/材料专业指南**](./general-skills//study/biochem-env-materials-guide.md)
 
 ## ⏳ 待补充
