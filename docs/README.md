@@ -28,7 +28,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 ## 🎓 共建计划
 
-好久不见！高考已经结束，在此祝小朋友们金榜题名！如果你有**志愿填报**的困惑，欢迎查看[这个文档](./choose-major/major.md)。
+好久不见！高考已经结束，在此祝小朋友们金榜题名！如果你有**志愿填报**的困惑，欢迎查看[这个文档](./campus-life/choose-major.md)。
 
 距离本项目启动已有近一年时间，在暑假即将结束、新学期即将到来之际，我们将对 Ac-Wiki 进行新一轮的更新扩充，为即将踏入大学校门的同学们提供更全面的指导。
 
@@ -67,25 +67,25 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 ### 🤝 圆梦帮扶
 
-- ✅ [奖/助学金申请](./08-Dream-Realization-Assistance/Scholar-Ship.md)
-- ✅ [勤工俭学申请](./08-Dream-Realization-Assistance/Work-Study-Program.md)
-- ✅ [国家助学贷款（常见问题）](./campus-life/national-student-loan-FAQ.md)
+- ✅ [奖/助学金申请](./campus-life/scholarship.md)
+- ✅ [勤工俭学申请](./campus-life/work-study-program.md)
+- ✅ [国家助学贷款（常见问题）](./campus-life/faq-national-student-loan.md)
 - 🚧 大学生创业扶持
 
 ### 🏫 校园生活
 
-- ✅ [开学第 0 课](./campus-life/01-FirstLesson-Of-School.md)（宿舍购置物品/所学专业的培养计划/绩点、学分计算方式/大学课表工作方式（常用课表软件））
-- ✅ [选修课/必修课/兴趣（个性化）课/网络课程](./campus-life/02-Different-Courses.md)
-- ✅ [签到考勤](./campus-life/03-Signin-And-Attendance.md)
-- ✅ [转专业须知](./campus-life/04-Changing-Majors.md)
-- ✅ [辅修/第二学位须知](./campus-life/05-Minor.md)
-- ✅ [如何申请学生邮箱](./campus-life/06-Student-Email.md)
-- ✅ [图书馆](./campus-life/07-Library.md)
-- ✅ [化解矛盾](./campus-life/08-Resolving-Conflicts.md)
-- ✅ [人际关系](./campus-life/09-Relation-Ships.md)
-- ✅ [脱单技巧](./campus-life/10-Getting-Out-Of-Singleness.md)
-- ✅ [国际交流项目指南](./campus-life/12-International-Exchange.md)
-- ✅ [大学生医保使用指南](./campus-life/11-Medical-Insurance.md)
+- ✅ [开学第 0 课](./campus-life/first-lesson-of-school.md)（宿舍购置物品/所学专业的培养计划/绩点、学分计算方式/大学课表工作方式（常用课表软件））
+- ✅ [选修课/必修课/兴趣（个性化）课/网络课程](./campus-life/different-courses.md)
+- ✅ [签到考勤](./campus-life/class-attendance.md)
+- ✅ [转专业须知](./campus-life/major-transfer-guide.md)
+- ✅ [辅修/第二学位须知](./campus-life/minor-or-dual-degree.md)
+- ✅ [如何申请学生邮箱](./campus-life/student-email.md)
+- ✅ [图书馆](./campus-life/library.md)
+- ✅ [化解矛盾](./campus-life/resolving-conflicts.md)
+- ✅ [人际关系](./campus-life/social-connections.md)
+- ✅ [脱单技巧](./campus-life/getting-out-of-singleness.md)
+- ✅ [国际交流项目指南](./campus-life/international-exchange.md)
+- ✅ [大学生医保使用指南](./campus-life/medical-insurance.md)
 - 🚧 **专业学习指导**（生化环材专业实验室经验、转专业策略、专业发展建议）
 
 ### 🌎 社会生活
@@ -108,17 +108,17 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 - ✅ [**高效检索信息/获取资源**](./general-skills/search-platforms.md)
 - 🚧 **第一篇论文**
-  - 🚧 学术规范与学术不端行为解释
-  - 🚧 论文是什么，有哪些分类
-  - 🚧 正确设置格式
-  - 🚧 怎样获取参考文献
-  - 🚧 论文组成部分详解
-  - 🚧 如何丰富论文—使用多种工具绘制图表
-  - 🚧 论文查重率 / AIGC 率检测与降低
-  - 🚧 审阅与修订
-  - 🚧 [国内外著名期刊简介、分区、投稿方式](./academic-resources/some-key-concepts.md)
-  - 🚧 其他学术名词解释：什么是影响因子，论文审稿流程，作者顺序与影响
-- ✅ [**计算机基础技能**](./07-computer-basic/SurfingTutorial.md)
+	- 🚧 学术规范与学术不端行为解释
+	- 🚧 论文是什么，有哪些分类
+	- 🚧 正确设置格式
+	- 🚧 怎样获取参考文献
+	- 🚧 论文组成部分详解
+	- 🚧 如何丰富论文—使用多种工具绘制图表
+	- 🚧 论文查重率 / AIGC 率检测与降低
+	- 🚧 审阅与修订
+	- 🚧 [国内外著名期刊简介、分区、投稿方式](./academic-resources/some-key-concepts.md)
+	- 🚧 其他学术名词解释：什么是影响因子，论文审稿流程，作者顺序与影响
+- ✅ [**计算机基础技能**](./general-skills/computer-basic/SurfingTutorial.md)
 - 🚧 **运用新质生产力**
 - 🚧 **合理规划时间**
 - 🚧 **高效学习技巧**
@@ -126,20 +126,20 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 ### 🛠 工具平台
 
 - 🚧 **获取资源**
-- ✅ [**效率优化**](./03-tools/tools.md)
+- ✅ [**效率优化**](./general-skills/tools.md)
 - 🚧 **学术网站**
 - 🚧 **数据检索**
 
 #### 🔒 网络安全
 
-- ✅ [密码管理](./03-tools/password_manage.md)
-<!--- ✅ [账号安全](./03-tools/cyber%20security/Authenticator.md) --->
-- ✅ [隐私保护](./03-tools/cyber%20security/privacy.md)
+- ✅ [密码管理](./general-skills/password_manage.md)
+<!--- ✅ [账号安全](./general-skills/cyber%20security/Authenticator.md) --->
+- ✅ [隐私保护](./general-skills/cyber%20security/privacy.md)
 
 #### 🏃 校园应用
 
-- ✅ [**风驰电掣**](./03-tools/qi-ji-yin-qiao/campus-running.md)
-- ✅ [**珍惜时间**](./03-tools/qi-ji-yin-qiao/pointless-courses.md)
+- ✅ [**风驰电掣**](./general-skills/qi-ji-yin-qiao/campus-running.md)
+- ✅ [**珍惜时间**](./general-skills/qi-ji-yin-qiao/pointless-courses.md)
 
 ### 🏆 考赛介绍
 
@@ -147,7 +147,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 - ✅ [**专业技能**](./04-study/certification.md)
 - ✅ [**考试竞赛**](./04-study/study.md)
 - ✅ [**研招**](./04-study/yanzhao.md)
-- ✅ [**生化/环境/材料专业指南**](./04-study/biochem-env-materials-guide.md)
+- ✅ [**生化/环境/材料专业指南**](./general-skills//study/biochem-env-materials-guide.md)
 
 ## ⏳ 待补充
 

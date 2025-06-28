@@ -10,7 +10,7 @@
 
 ---
 
-![学分](./scores.svg)
+![学分](./assets/scores.svg)
 
 ---
 
@@ -76,7 +76,7 @@
 
 以 [LinkChou](https://gitee.com/LinkChou/sdsmu_welcome_tex) 制作的“山东第二医科大学成绩”图为例进行简单说明
 
-![成绩](./grades.svg)
+![成绩](./assets/grades.svg)
 
 1. 虽然不同学校要求不一，但是大体上还是分为“平时成绩”和“期末成绩”
 2. 部分学校（如山东第二医科大学）对平时成绩也有要求，根据自己学校的规定学习即可
