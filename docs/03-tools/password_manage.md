@@ -120,11 +120,11 @@ _按推荐顺序排序_
 ## 参考资料
 
 1. 小众论坛
-    - [#45039](https://meta.appinn.net/t/topic/45039)
-    - [#28971](https://meta.appinn.net/t/topic/28971)
-    - [#33276](https://meta.appinn.net/t/topic/33276)
-    - [#36314](https://meta.appinn.net/t/topic/36314)
-    - [#39146](https://meta.appinn.net/t/topic/39146)
-    - [#52588](https://meta.appinn.net/t/topic/52588)
-    - [#12159](https://meta.appinn.net/t/topic/12159)
+   - [#45039](https://meta.appinn.net/t/topic/45039)
+   - [#28971](https://meta.appinn.net/t/topic/28971)
+   - [#33276](https://meta.appinn.net/t/topic/33276)
+   - [#36314](https://meta.appinn.net/t/topic/36314)
+   - [#39146](https://meta.appinn.net/t/topic/39146)
+   - [#52588](https://meta.appinn.net/t/topic/52588)
+   - [#12159](https://meta.appinn.net/t/topic/12159)
 2. [坚果云](https://www.jianguoyun.com/)
