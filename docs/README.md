@@ -221,6 +221,12 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 [![HUST-学解](https://img.shields.io/static/v1?label=&message=HUST-学解&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie)
 
+## 技术支持  
+
+本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助
+
+![EdgeOne](./assets/TencentEdgeone.png)
+
 ---
 
 # 💁 联系我们
