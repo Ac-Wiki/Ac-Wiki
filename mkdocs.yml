@@ -2,48 +2,48 @@ draft_docs: drafts/
 nav:
   - 首页: /
   - 校园生活:
-      - 开学前准备: campus-life/01-FirstLesson-Of-School.md
-      - 课程与分数计算: campus-life/02-Different-Courses.md
-      - 签到考勤: campus-life/03-Signin-And-Attendance.md
-      - 转专业: campus-life/04-Changing-Majors.md
-      - 辅修/第二学位: campus-life/05-Minor.md
-      - 学生邮箱: campus-life/06-Student-Email.md
-      - 图书馆: campus-life/07-Library.md
-      - 化解矛盾: campus-life/08-Resolving-Conflicts.md
-      - 人际关系: campus-life/09-Relation-Ships.md
-      - 脱单技巧: campus-life/10-Getting-Out-Of-Singleness.md
-      - 医保指南: campus-life/11-Medical-Insurance.md
-      - 国际交流: campus-life/12-International-Exchange.md
+      - 开学前准备: campus-life/first-lesson-of-school.md
+      - 课程与分数计算: campus-life/different-courses.md
+      - 签到考勤: campus-life/class-attendance.md
+      - 转专业: campus-life/major-transfer-guide.md
+      - 辅修/第二学位: campus-life/minor-or-dual-degree.md
+      - 学生邮箱: campus-life/student-email.md
+      - 图书馆: campus-life/library.md
+      - 化解矛盾: campus-life/resolving-conflicts.md
+      - 人际关系: campus-life/social-connections.md
+      - 脱单技巧: campus-life/getting-out-of-singleness.md
+      - 医保指南: campus-life/medical-insurance.md
+      - 国际交流: campus-life/international-exchange.md
       - 圆梦帮扶:
-          - 奖助学金申请: 08-Dream-Realization-Assistance/Scholar-Ship.md
-          - 勤工俭学申请: 08-Dream-Realization-Assistance/Work-Study-Program.md
-          - 国家助学贷款: campus-life/national-student-loan-FAQ.md
-  - 学术资源:
-      - academic-resources/index.md
+          - 奖助学金申请: campus-life/scholarship.md
+          - 勤工俭学申请: campus-life/work-study-program.md
+          - 国家助学贷款: campus-life/faq-national-student-loan.md
+  - 学术资源: 
+      - academic-resources/README.md
       - 一些关键概念: academic-resources/some-key-concepts.md
-  - 成长通道: growth-path/index.md
+  - 成长通道: growth-path/README.md
   - 通识技能库:
-      - general-skills/index.md
+      - general-skills/README.md
       - 学生优惠: general-skills/student-discounts.md
       - 搜索引擎: general-skills/search-platforms.md
       - 工具:
-          - 效率软件: 03-tools/tools.md
+          - 效率软件: general-skills/tools.md
           - 网络安全:
-              #- 双重身份验证: 03-tools/cyber security/Authenticator.md
-              - 密码管理: 03-tools/password_manage.md
-              - 隐私保护: 03-tools/cyber security/privacy.md
+              #- 双重身份验证: general-skills/cyber security/Authenticator.md
+              - 密码管理: general-skills/password_manage.md
+              - 隐私保护: general-skills/cyber security/privacy.md
           - 奇技淫巧:
-              - 校园跑: 03-tools/qi-ji-yin-qiao/campus-running.md
-              - 刷课: 03-tools/qi-ji-yin-qiao/pointless-courses.md
+              - 校园跑: general-skills/qi-ji-yin-qiao/campus-running.md
+              - 刷课: general-skills/qi-ji-yin-qiao/pointless-courses.md
       - 学习:
-          - 考试和竞赛: 04-study/study.md
+          - 考试和竞赛: general-skills/study/study.md
       - 生活:
-          - 生活实用小技巧: 05-common-sense-of-life/common-sense-of-life.md
-          - 保健手段: 05-common-sense-of-life/health.md
+          - 生活实用小技巧: general-skills/life-tips.md
+          - 保健手段: general-skills/health.md
       - 就业:
-          - 企业文化: 06-recruit-exercitation/recruit-exercitation.md
+          - 企业文化: general-skills/recruit-exercitation.md
       - 方法论:
-          - 计算机基础技能: 07-computer-basic/SurfingTutorial.md
+          - 计算机基础技能: general-skills/computer-basic/SurfingTutorial.md
   - 共建社区:
       - community-hub/README.md
       - 关于 Wiki: community-hub/about-wiki.md
@@ -123,12 +123,12 @@ extra:
             请 <a href="https://t.me/AcWiki" target="_blank" rel="noopener">加入频道</a> 或 <a href="https://github.com/Ac-Wiki/Ac-Wiki/issues/new?template=Blank+issue" target="_blank" rel="noopener">发起Issue</a><br>告诉我们如何改进！
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 
 extra_javascript:
-  - js/feedback.js
+  - assets/javascripts/feedback.js
   - https://cn.vercount.one/js
-  - js/mathjax.js
+  - assets/javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
