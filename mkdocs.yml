@@ -155,7 +155,7 @@ plugins:
   - search:
       lang: zh
       separator: '[\s\u200b\-]'
-      jieba_dict: assets/dict.txt
+      jieba_dict: ./src/overrides/assets/dict.txt
   - git-revision-date-localized: # commit/Modify date
       timezone: Asia/Shanghai
       enable_creation_date: true
