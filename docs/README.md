@@ -108,16 +108,16 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 - ✅ [**高效检索信息/获取资源**](./general-skills/search-platforms.md)
 - 🚧 **第一篇论文**
-	- 🚧 学术规范与学术不端行为解释
-	- 🚧 论文是什么，有哪些分类
-	- 🚧 正确设置格式
-	- 🚧 怎样获取参考文献
-	- 🚧 论文组成部分详解
-	- 🚧 如何丰富论文—使用多种工具绘制图表
-	- 🚧 论文查重率 / AIGC 率检测与降低
-	- 🚧 审阅与修订
-	- 🚧 [国内外著名期刊简介、分区、投稿方式](./academic-resources/some-key-concepts.md)
-	- 🚧 其他学术名词解释：什么是影响因子，论文审稿流程，作者顺序与影响
+  - 🚧 学术规范与学术不端行为解释
+  - 🚧 论文是什么，有哪些分类
+  - 🚧 正确设置格式
+  - 🚧 怎样获取参考文献
+  - 🚧 论文组成部分详解
+  - 🚧 如何丰富论文—使用多种工具绘制图表
+  - 🚧 论文查重率 / AIGC 率检测与降低
+  - 🚧 审阅与修订
+  - 🚧 [国内外著名期刊简介、分区、投稿方式](./academic-resources/some-key-concepts.md)
+  - 🚧 其他学术名词解释：什么是影响因子，论文审稿流程，作者顺序与影响
 - ✅ [**计算机基础技能**](./general-skills/computer-basic/SurfingTutorial.md)
 - 🚧 **运用新质生产力**
 - 🚧 **合理规划时间**
@@ -221,7 +221,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 [![HUST-学解](https://img.shields.io/static/v1?label=&message=HUST-学解&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie)
 
-## 技术支持  
+## 技术支持
 
 本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助
 
