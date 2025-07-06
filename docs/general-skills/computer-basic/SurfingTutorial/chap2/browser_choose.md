@@ -26,10 +26,10 @@
 
 - **推荐指数**: ★★★★★
 - **核心优势**:
-  - 预装于 Win10/Win11 系统，开箱即用
-  - 内存优化优秀（睡眠标签页功能）
-  - 内置 PDF 阅读器和屏幕截图工具
-  - 垂直标签页和集锦功能提升效率
+    - 预装于 Win10/Win11 系统，开箱即用
+    - 内存优化优秀（睡眠标签页功能）
+    - 内置 PDF 阅读器和屏幕截图工具
+    - 垂直标签页和集锦功能提升效率
 - **适用人群**: Windows 用户、多设备同步需求者
 - [官方下载](https://www.microsoft.com/zh-cn/edge)
 
@@ -37,12 +37,12 @@
 
 - **推荐指数**: ★★★★☆
 - **核心优势**:
-  - 最完整的 Web 标准支持
-  - 最大的扩展库（Chrome Web Store）
-  - 开发者工具功能最强大
+    - 最完整的 Web 标准支持
+    - 最大的扩展库（Chrome Web Store）
+    - 开发者工具功能最强大
 - **注意事项**:
-  - 需科学上网才能使用完整功能（同步、扩展商店）
-  - 内存占用较高
+    - 需科学上网才能使用完整功能（同步、扩展商店）
+    - 内存占用较高
 - **适用人群**: 开发者、谷歌生态用户
 - [官方下载](https://www.google.com/chrome/)
 
@@ -50,12 +50,12 @@
 
 - **推荐指数**: ★★★★☆
 - **核心优势**:
-  - 开源且注重隐私（增强跟踪保护）
-  - 独立渲染引擎（Gecko），避免 Chromium 垄断
-  - 高度可定制界面
+    - 开源且注重隐私（增强跟踪保护）
+    - 独立渲染引擎（Gecko），避免 Chromium 垄断
+    - 高度可定制界面
 - **重要警告**:
-  - ❌ 避免国内定制版（firefox.com.cn）
-  - ✅ 仅使用国际版（mozilla.org）
+    - ❌ 避免国内定制版（firefox.com.cn）
+    - ✅ 仅使用国际版（mozilla.org）
 - **开发者版本**: [Firefox Developer Edition](https://www.mozilla.org/zh-CN/firefox/developer/)
 - **适用人群**: 隐私关注者、Linux 用户
 - [官方下载](https://www.mozilla.org/zh-CN/firefox/new/)
@@ -64,12 +64,12 @@
 
 - **推荐指数**: ★★★☆☆
 - **核心优势**:
-  - 内置鼠标手势和超级拖拽
-  - 滚动标签栏和多功能地址栏
-  - 适合国内网络环境
+    - 内置鼠标手势和超级拖拽
+    - 滚动标签栏和多功能地址栏
+    - 适合国内网络环境
 - **注意事项**:
-  - 更新频率较低
-  - 部分安全特性不及官方 Chromium
+    - 更新频率较低
+    - 部分安全特性不及官方 Chromium
 - **适用人群**: 从国产浏览器迁移的用户
 - [官方下载](https://www.centbrowser.cn/)
 
@@ -77,12 +77,12 @@
 
 - **推荐指数**: ★★☆☆☆
 - **核心优势**:
-  - 极简设计（仅 4MB 大小）
-  - 开源透明（GitHub 托管）
-  - 内置广告拦截和阅读模式
+    - 极简设计（仅 4MB 大小）
+    - 开源透明（GitHub 托管）
+    - 内置广告拦截和阅读模式
 - **适用场景**:
-  - 老旧设备
-  - 临时浏览需求
+    - 老旧设备
+    - 临时浏览需求
 - **局限**: 功能简单，不支持扩展
 - [官方下载](https://minbrowser.org/)
 
@@ -104,17 +104,17 @@
 ![默认搜索](../img/chap2_default_search.png)
 
 - **推荐配置**:
-  - 国际用户：DuckDuckGo + Google
-  - 国内用户：Bing + 百度
+    - 国际用户：DuckDuckGo + Google
+    - 国内用户：Bing + 百度
 - **设置路径**:
   `设置 > 隐私、搜索和服务 > 地址栏和搜索`
 
 ### 2. 下载管理
 
 - **关键设置**:
-  - 更改默认下载位置（避免 C 盘爆满）
-  - 开启"下载前询问每个文件的保存位置"
-  - 设置下载完成后的通知
+    - 更改默认下载位置（避免 C 盘爆满）
+    - 开启"下载前询问每个文件的保存位置"
+    - 设置下载完成后的通知
 - **路径**:
   `设置 > 下载`
 
@@ -129,44 +129,42 @@
 ![新标签页展示](../img/chap2_new_tab.png)
 
 - **新标签页**:
-  - 推荐：空白页或自定义仪表盘（如 Tabliss）
-  - 避免：新闻聚合页面（影响加载速度）
+    - 推荐：空白页或自定义仪表盘（如 Tabliss）
+    - 避免：新闻聚合页面（影响加载速度）
 - **主页设置**:
   ![主页展示](../img/chap2_new_home.png)
+    - 实用配置：
 
-  - 实用配置：
-
-    ```markdown
-    about:blank # 空白页
-    https://startpage.com # 隐私搜索引擎
-    chrome://bookmarks # 书签页
-    ```
+        ```markdown
+        about:blank # 空白页
+        https://startpage.com # 隐私搜索引擎
+        chrome://bookmarks # 书签页
+        ```
 
 ### 4. 隐私与安全强化
 
 - **必开选项**:
-  - 增强跟踪防护（Edge/Firefox）
-  - 请勿跟踪信号发送
-  - 安全 DNS（推荐 Cloudflare 1.1.1.1）
+    - 增强跟踪防护（Edge/Firefox）
+    - 请勿跟踪信号发送
+    - 安全 DNS（推荐 Cloudflare 1.1.1.1）
 - **高级防护**:
 
-  ```markdown
-  [*.] 禁用第三方 Cookie
-  [*.] 定期清除浏览数据
-  [*.] 使用隐私模式处理敏感操作
-  ```
+    ```markdown
+    [*.] 禁用第三方 Cookie
+    [*.] 定期清除浏览数据
+    [*.] 使用隐私模式处理敏感操作
+    ```
 
 ### 5. 性能优化设置
 
 - **内存管理**:
-
-  - 启用睡眠标签页（Edge）
-  - 限制后台运行
-  - 硬件加速（根据 GPU 性能调整）
+    - 启用睡眠标签页（Edge）
+    - 限制后台运行
+    - 硬件加速（根据 GPU 性能调整）
 
 - **实验室功能**:
-  - Edge 效率模式
-  - Chrome 内存节省程序
+    - Edge 效率模式
+    - Chrome 内存节省程序
 
 ## 进阶技巧
 
@@ -188,8 +186,8 @@
 
 - **场景**: 公共电脑/U 盘随身携带
 - **推荐**:
-  - [PortableApps 平台](https://portableapps.com/)
-  - [Firefox Portable](https://portableapps.com/apps/internet/firefox_portable)
+    - [PortableApps 平台](https://portableapps.com/)
+    - [Firefox Portable](https://portableapps.com/apps/internet/firefox_portable)
 
 ## 参考资料与扩展阅读
 

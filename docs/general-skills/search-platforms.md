@@ -225,7 +225,7 @@ AI 驱动的搜索引擎，会先从多个搜索引擎检索信息，然后使�
 - [百度识图](https://graph.baidu.com/pcpage/index?tpl_from=pc)
 - [搜狗识图](https://pic.sogou.com/)
 - [360 识图](https://st.so.com/)
-  > - 国外（国外大多以插画，动漫识别精准度较高）
+    > - 国外（国外大多以插画，动漫识别精准度较高）
 - [yandex](https://ya.ru/images/touch/?lr=111500&redircnt=1732120675.1)
 - [google 识图](https://images.google.com/?hl=zh-CN)
 - [ascii2d](https://ascii2d.net/?forceOutSide=true)

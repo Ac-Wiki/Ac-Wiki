@@ -51,22 +51,22 @@
 ### 🎵 音乐& 🎞️ 影视
 
 - [Apple Music](https://www.apple.com/apple-music/#plans)
-  - 实付 `$5.99/月`（美区），`￥6.00/月`（国区）
-  - 注，该软件安卓使用体验较差
+    - 实付 `$5.99/月`（美区），`￥6.00/月`（国区）
+    - 注，该软件安卓使用体验较差
 - [QQ 音乐](https://y.qq.com/jzt/student)
-  - 学生认证后可低价开通豪华绿钻，实付`￥8/月`
+    - 学生认证后可低价开通豪华绿钻，实付`￥8/月`
 - [网易云音乐](https://y.music.163.com/g/m/at/daydayup230505Astudyup?page=2ade783a2638439591ca02a78c0f85ca&extCfhannel=sms-3)
-  - 可低价开通黑胶会员，实付 `¥5/月`
-  - 详细步骤见下：
-    1. 搜索 `学生` 关键词
-    2. 进入 `黑胶 VIP 学生特惠` 活动页面
-    3. 进行实名认证 (网易云音乐的学生优惠仅限 14-22 周岁)
-    4. 选择适合自己的付费周期
-       - 黑胶**VIP** ¥5/**月**，每年可购买 12 次（仅限学生）
-       - 黑胶**VIP** ¥60/**年**，一次付完，每年仅可购买 1 次（仅限学生）
-       - 黑胶**SVIP** ¥96/**年**，每年仅可购买 1 次（仅限学生）
-       - 注：单个 Apple ID 仅可享受 1 次优惠
-    5. 付款，完成
+    - 可低价开通黑胶会员，实付 `¥5/月`
+    - 详细步骤见下：
+        1. 搜索 `学生` 关键词
+        2. 进入 `黑胶 VIP 学生特惠` 活动页面
+        3. 进行实名认证 (网易云音乐的学生优惠仅限 14-22 周岁)
+        4. 选择适合自己的付费周期
+            - 黑胶**VIP** ¥5/**月**，每年可购买 12 次（仅限学生）
+            - 黑胶**VIP** ¥60/**年**，一次付完，每年仅可购买 1 次（仅限学生）
+            - 黑胶**SVIP** ¥96/**年**，每年仅可购买 1 次（仅限学生）
+            - 注：单个 Apple ID 仅可享受 1 次优惠
+        5. 付款，完成
 
 ## 🎓 学习&软件服务
 
@@ -77,7 +77,7 @@
 - [GitHub 学生开发者资源包](https://education.github.com/pack)中，**强烈推荐**，价值 `$10/月`，详细申请过程可以去看[知乎 Akari 的《Github 学生认证及学生包保姆级申请指南》](https://github.com/JimmyLing233/Github-Student-Certification-Guide)；
 - [阿里云天工计划](https://university.aliyun.com/)：高校学生实名认证可领取**300 元无门槛**抵扣金;
 - [Azure](https://azure.microsoft.com/zh-cn/free/students/)：Microsoft 旗下的开发者云服务平台，对**教育订阅**提供`每12月$100的免费额度`，以及部分免费服务
-  - [申请须知](https://www.bilibili.com/read/cv22794294/)
+    - [申请须知](https://www.bilibili.com/read/cv22794294/)
 - [GitHub Copilot](https://github.com/features/copilot/plans?cft=copilot_li.features_copilot)：结对编程助手，包含在 GitHub 学生开发者资源包中;
 - [GitHub Pro](https://docs.github.com/zh/get-started/learning-about-github/githubs-plans#github-pro)：代码协作平台，包含在 GitHub 学生开发者资源包中;
 - [Jetbrains](https://www.jetbrains.com/zh-cn/community/education/#students)：编程语言开发套件，用了都说好。打开界面后往下拉找到立刻申请按钮点击，之后按照网站需求填写信息即可（需要有学生邮箱）
@@ -98,13 +98,13 @@
 ### 📑 办公
 
 - [Microsoft 365 个人版](https://www.microsoft.com/zh-cn/microsoft-365/college-student-pricing)：著名办公套件，包含 1T 的 OneDrive 空间。学生计划 `￥18/月` (原计划 `￥39/月`)
-  - 注：OneDrive 在国内很难用……
+    - 注：OneDrive 在国内很难用……
 - WPS：大学生优惠可以折扣价购买各层级会员，以超级会员为例，原价 `￥21/月`，学生价 `￥9/月`；
-  - 详细步骤见下：
-    1. 打开支付宝
-    2. 搜索“我的 wps 超级会员”
-    3. 点击“大学生优惠”
-    4. 认证并根据自己的需要进行付费
+    - 详细步骤见下：
+        1. 打开支付宝
+        2. 搜索“我的 wps 超级会员”
+        3. 点击“大学生优惠”
+        4. 认证并根据自己的需要进行付费
 - [启航邮免费领邮箱会员](https://vip.163.com/projects/campus-vip)：使用 edu 邮箱认证，可免费领取网易邮箱大师会员
 
 ### 🎨 设计
