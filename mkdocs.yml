@@ -1,6 +1,6 @@
 draft_docs: drafts/
 nav:
-  - 首页: /
+  - 首页: README.md
   - 校园生活:
       - 开学前准备: campus-life/first-lesson-of-school.md
       - 课程与分数计算: campus-life/different-courses.md
