@@ -70,7 +70,7 @@
 
 **学生优惠申请：**
 
-- 各类学生优惠资源可查看 [学生优惠](/docs/general-skills/student-discounts.md) 页面
+- 各类学生优惠资源可查看 [学生优惠](../general-skills/student-discounts.md) 页面
 
 #### 使用邮件客户端收发消息
 
