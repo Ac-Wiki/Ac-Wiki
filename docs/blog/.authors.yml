@@ -1,16 +1,16 @@
 authors:
-  NekoMirra:
-    name: NekoMirra
-    description: Ac-Wiki 发起人
-    avatar: https://github.com/NekoMirra.png
-    url: https://mirradev.eu.org/
-  ztm0929:
-    name: 天明 (@ztm0929)
-    description: Ac-Wiki 成员
-    avatar: https://github.com/ztm0929.png
-    url: https://github.com/ztm0929
-  anchoringpoint:
-    name: anchoringpoint
-    description: Ac-Wiki 成员
-    avatar: https://github.com/anchoringpoint.png
-    url: https://github.com/anchoringpoint
+    NekoMirra:
+        name: NekoMirra
+        description: Ac-Wiki 发起人
+        avatar: https://github.com/NekoMirra.png
+        url: https://mirradev.eu.org/
+    ztm0929:
+        name: 天明 (@ztm0929)
+        description: Ac-Wiki 成员
+        avatar: https://github.com/ztm0929.png
+        url: https://github.com/ztm0929
+    anchoringpoint:
+        name: anchoringpoint
+        description: Ac-Wiki 成员
+        avatar: https://github.com/anchoringpoint.png
+        url: https://github.com/anchoringpoint
