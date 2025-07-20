@@ -10,7 +10,7 @@
 
 - [http://colleges.chat](http://colleges.chat) 大学生活质量指北，开源，MkDocs
 
-- [https://www.criwits.top/missing](https://www.criwits.top/missing) 你缺失的那门计算机课，未知
+- [https://www.criwits.top/missing](https://www.criwits.top/missing) 你缺失的那门计算机课，Hugo
 
 - [https://csdiy.wiki](https://csdiy.wiki) CS 自学指南，开源，MkDocs
 
