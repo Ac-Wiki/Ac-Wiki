@@ -25,6 +25,7 @@ nav:
     - 通识技能库:
           - general-skills/README.md
           - 学生优惠: general-skills/student-discounts.md
+          - 银行账户与信用卡: general-skills/bank-accounts-and-credit-cards.md
           - 搜索引擎: general-skills/search-platforms.md
           - 工具:
                 - 效率软件: general-skills/tools.md
@@ -83,6 +84,11 @@ theme:
         - search.highlight
         - search.share
     palette:
+        # auto switch between light and dark mode
+        - media: "(prefers-color-scheme)"
+          toggle:
+              icon: material/refresh-auto
+              name: 切换到浅色模式
         # match system theme color
         - media: "(prefers-color-scheme: light)"
           scheme: default
@@ -93,7 +99,7 @@ theme:
           scheme: slate
           toggle:
               icon: material/weather-night
-              name: 切换到浅色模式
+              name: 根据系统主题切换
 
 extra:
     social:
