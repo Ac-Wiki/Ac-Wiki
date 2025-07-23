@@ -21,6 +21,8 @@ nav:
     - 学术资源:
           - academic-resources/README.md
           - 一些关键概念: academic-resources/some-key-concepts.md
+          - 资源: 
+                - 数学: academic-resources/math/learning-resources.md
     - 成长通道: growth-path/README.md
     - 通识技能库:
           - general-skills/README.md
