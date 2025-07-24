@@ -81,3 +81,10 @@
 [https://github.com/Ac-Wiki/Ac-Wiki/issues](https://github.com/Ac-Wiki/Ac-Wiki/issues)
 
 如果你愿意帮助本教程变得更好，欢迎 PR
+
+## 特别推荐
+
+网络上关于电脑软硬件的科普知识浩如烟海，除了本文所引用的 SurfingTutorial 之外，Ac-Wiki 还推荐以下开源内容，欢迎浏览或贡献：
+
+- [《你缺失的那门计算机课》](https://www.criwits.top/missing/) ：一份适合小白入门的电脑使用课程。
+- [《计算机教育中缺失的一课》](https://missing-semester-cn.github.io/) ：补充了传统的计算机科学课程中甚少提及的高效使用工具的内容。（命令行、版本控制、编辑器、调试等等）

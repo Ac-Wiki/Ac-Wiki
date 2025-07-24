@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+title: 开学前准备
+---
+
 # 开学第 0 课
 
 本节含

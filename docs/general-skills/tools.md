@@ -1,3 +1,8 @@
+---
+sidebar_position: 11
+title: 效率软件
+---
+
 :::info
 
     本篇主要关注操作系统上的效率软件。

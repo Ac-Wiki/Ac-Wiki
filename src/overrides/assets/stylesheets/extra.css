@@ -1,0 +1,11 @@
+[id^="vercount_value"] {
+    margin: 1em 0;
+    font-size: 0.8em;
+    color: var(--md-footer-fg-color--light);
+}
+
+/* 将贡献者头像恢复为原色 */
+/* 参阅：https://github.com/squidfunk/mkdocs-material/blob/4487c88415b12332b2ae5a56d1a28e9927f24812/src/templates/assets/stylesheets/main/components/_author.scss#L70-L76 */
+.md-typeset a.md-author img {
+    filter: grayscale(0%) opacity(100%);
+}

@@ -1,0 +1,63 @@
+name: 问题反馈
+description: 本模板针对网站无法访问、显示错误等问题
+title: "[Bug]: 在这里填写一个合适的标题"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **请在上方以一句话简短地概括你的问题作为标题**
+        > 请按下方的要求填写完整的问题表单，以便我们更快的定位问题。
+
+  - type: input
+    attributes:
+      label: Windows 版本
+      description: |
+        `Win+R` 输入 `winver` 回车后在打开的窗口第二行可以找到
+      placeholder: 例：26100.4061
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 浏览器版本
+      description: |
+        请在浏览器的“关于”页面中查找你的浏览器版本
+      placeholder: 例：Firefox正式版126.0
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 发生问题的时间
+      description: 填写当前系统时间，24小时制
+      placeholder: 例：23:12
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 问题分类
+      description: 请设置一个你认为合适的分类，这将帮助我们快速定位问题
+      options:
+        - 网络问题
+        - 网站错误
+        - 排版异常
+        - 功能异常/缺失
+        - 其它
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 发生了什么？
+      description: |
+        详细的描述问题发生前后的行为，以便我们解决问题。**带有图片的问题将被优先处理**
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 你期望发生的行为？
+      description: 详细的描述你期望发生的行为，突出与目前（可能不正确的）行为的不同
+    validations:
+      required: false

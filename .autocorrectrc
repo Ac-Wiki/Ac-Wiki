@@ -29,6 +29,7 @@ spellcheck:
     - AppKit
     - AppStore = App Store
     - AWS
+    - BitTorrent
     - CacheStorage
     - CDN
     - CentOS
@@ -86,6 +87,7 @@ spellcheck:
     - OSS
     - P2P
     - PaaS
+    - PowerShell
     - RabbitMQ
     - Redis
     - RESTful

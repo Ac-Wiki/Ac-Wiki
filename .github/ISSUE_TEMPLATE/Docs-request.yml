@@ -1,0 +1,32 @@
+name: 文档更改请求
+description: 文档有哪里不完善或者需要更改可以在此提出
+title: "[Docs Request]: 在这里填写一个合适的标题"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请按下方的要求填写完整的问题表单。
+  
+  - type: dropdown
+    attributes:
+      label: 议题分类
+      options:
+        - 增加文档
+        - 修正文档
+        - 删除文档
+        - 其它
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 具体描述你希望实现的内容变更
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 填写链接
+      description: 如果这个问题与文件或者网页相关，你可以在此处填写它的链接
+    validations:
+      required: false

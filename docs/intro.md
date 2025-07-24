@@ -1,6 +1,8 @@
 ---
 sidebar_position: 0
 slug: /
+sidebar_label: ✨Ac-Wiki
+toc_max_heading_level: 2
 ---
 
 <div align="center">
@@ -162,71 +164,71 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 ---
 
-# 📎 引用与致谢
+## 📎 引用与致谢
 
-## 🙏 方山厨子
+### 🙏 方山厨子
 
 [《成年人社会生活常识课》](https://www.bilibili.com/video/BV1eWxneME3Q) - 提供了大量实用的社会生活知识，是本项目重要的参考资源。
 
 [![访问主页](https://img.shields.io/static/v1?label=&message=访问主页&color=e91e63&style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/274459325)
 
-## 高校课程资源共享项目
+### 高校课程资源共享项目
 
 我们向以下优秀的高校课程资源共享项目致敬，他们的开源精神与知识共享理念为本项目提供了重要参考：
 
-### 北京大学
+#### 北京大学
 
 [![贵校课程](https://img.shields.io/static/v1?label=&message=贵校课程&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/lib-pku/libpku)
 [![气垫船](https://img.shields.io/static/v1?label=&message=气垫船&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/martinwu42/project-hover)
 [![信科资料](https://img.shields.io/static/v1?label=&message=信科资料&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/EECS-PKU-XSB/Shared-learning-materials)
 [![大作业](https://img.shields.io/static/v1?label=&message=大作业&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/tongtzeho/PKUCourse)
 
-### 清华大学
+#### 清华大学
 
 [![计算机](https://img.shields.io/static/v1?label=&message=计算机&color=34a853&style=for-the-badge&logo=github&logoColor=white)](https://github.com/PKUanonym/REKCARC-TSC-UHT)
 
-### 浙江大学
+#### 浙江大学
 
 [![课程攻略](https://img.shields.io/static/v1?label=&message=课程攻略&color=ea4335&style=for-the-badge&logo=github&logoColor=white)](https://github.com/QSCTech/zju-icicles)
 
-### 中国科学技术大学
+#### 中国科学技术大学
 
 [![计算机](https://img.shields.io/static/v1?label=&message=计算机&color=fbbc05&style=for-the-badge&logo=github&logoColor=white)](https://github.com/USTC-Resource/USTC-Course)
 
-### 上海交通大学
+#### 上海交通大学
 
 [![课程资料](https://img.shields.io/static/v1?label=&message=课程资料&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/CoolPhilChen/SJTU-Courses/)
 [![生存手册](https://img.shields.io/static/v1?label=&message=生存手册&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/SurviveSJTU/SurviveSJTUManual)
 
-### 南京大学
+#### 南京大学
 
 [![复习资料](https://img.shields.io/static/v1?label=&message=复习资料&color=34a853&style=for-the-badge&logo=github&logoColor=white)](https://github.com/idealclover/NJU-Review-Materials)
 
-### 东南大学
+#### 东南大学
 
 [![课程共享](https://img.shields.io/static/v1?label=&message=课程共享&color=ea4335&style=for-the-badge&logo=github&logoColor=white)](https://github.com/zjdx1998/seucourseshare)
 
-### 中山大学
+#### 中山大学
 
 [![课程资料](https://img.shields.io/static/v1?label=&message=课程资料&color=fbbc05&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sysuexam/SYSU-Exam)
 
-### 郑州大学
+#### 郑州大学
 
 [![复习资料](https://img.shields.io/static/v1?label=&message=复习资料&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/CooperNiu/ZZU-Courses-Resource)
 
-### 广东工业大学
+#### 广东工业大学
 
 [![课程攻略](https://img.shields.io/static/v1?label=&message=课程攻略&color=34a853&style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenner8023/gdut-course)
 
-### 江西理工大学
+#### 江西理工大学
 
 [![学习资料库](https://img.shields.io/static/v1?label=&message=学习资料库&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sikouhjw/jxust-Learning-database)
 
-### 华中科技大学（计算机学院）
+#### 华中科技大学（计算机学院）
 
 [![HUST-学解](https://img.shields.io/static/v1?label=&message=HUST-学解&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie)
 
-## 技术支持
+### 技术支持
 
 本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助
 
@@ -234,7 +236,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 ---
 
-# 💁 联系我们
+## 💁 联系我们
 
 <div align="center">
 
@@ -260,7 +262,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
   </a>
 </div>
 
-## 贡献/参与者
+### 贡献/参与者
 
 感谢所有参与到开发/测试中的朋友们，是大家的帮助让 Ac-Wiki 越来越好！ (\*´▽｀) ノノ
 
@@ -270,9 +272,9 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
   </a>
 </div>
 
-# 🖥️ 本地部署
+## 🖥️ 本地部署
 
-## 克隆仓库
+### 克隆仓库
 
 确保您安装了 git，可于[Git 官网](https://git-scm.com/)下载
 
@@ -280,9 +282,9 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 `git clone https://github.com/Ac-Wiki/Ac-Wiki.git --depth=1`
 
-## 初始化虚拟环境
+### 初始化虚拟环境
 
-### Win
+#### Win
 
 1. 使用 VSCode 打开仓库目录 `Code.exe ./Ac-Wiki`
 2. 打开 VSCode 的终端 `Ctrl` + `` ` ``
@@ -291,7 +293,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 5. 此时，VSCode 会弹出提示，询问你是否使用该环境，选择是
 6. 在终端中输入 `python venv\Scripts\activate` 以使用该虚拟环境
 
-### Linux / macOS
+#### Linux / macOS
 
 创建一个虚拟环境
 
@@ -301,13 +303,13 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 `source venv/bin/activate`
 
-## 安装依赖
+### 安装依赖
 
 仓库根目录下有 `requirements.txt`，在虚拟环境中执行以下命令安装依赖：
 
 `pip install -r requirements.txt`
 
-## 构建本地网页
+### 构建本地网页
 
 执行以下命令：
 

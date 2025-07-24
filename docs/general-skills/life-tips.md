@@ -1,3 +1,8 @@
+---
+sidebar_position: 31
+title: 生活实用小技巧
+---
+
 :::info 生活
 
     - _Life is what happens when you're busy making other plans._

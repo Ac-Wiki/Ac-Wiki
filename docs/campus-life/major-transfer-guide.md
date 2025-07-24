@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # 转专业
 
 ## 总述

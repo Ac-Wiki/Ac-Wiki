@@ -42,13 +42,15 @@ const config: Config = {
         docs: {
           routeBasePath: '/', // 设置文档的根路径
           sidebarPath: './sidebars.ts',
-          // 指向仓库内的文档源代码
           remarkPlugins: [remarkMath],
           rehypePlugins: [[rehypeKatex, {
             strict: false,
             output: 'html',
             trust: true
           }]],
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          // 指向仓库内的文档源代码
           editUrl:
             'https://github.com/Ac-Wiki/Ac-Wiki/tree/docusaurus-site',
         },
@@ -87,9 +89,14 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '首页',
         },
+        {to: '/category/校园生活', label: '校园生活', position: 'left'},
+        {to: '/category/学术资源', label: '学术资源', position: 'left'},
+        {to: '/category/成长通道', label: '成长通道', position: 'left'},
+        {to: '/category/通识技能库', label: '通识技能库', position: 'left'},
         {to: '/blog', label: '博客', position: 'left'},
+        {to: '/category/共建社区', label: '共建社区', position: 'right'},
         {
           href: 'https://github.com/Ac-Wiki/Ac-Wiki',
           label: 'GitHub',
@@ -128,6 +135,11 @@ const config: Config = {
         },
       ],
       copyright: `© ${new Date().getFullYear()} Ac-Wiki<br />使用 <a href="https://docusaurus.io/zh-CN/">Docusaurus</a> 构建`,
+    },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
     },
     prism: {
       theme: prismThemes.github,

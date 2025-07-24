@@ -1,7 +1,7 @@
 # .prettierrc.yaml
 
 # General formatting options applicable to Markdown files
-tabWidth: 2 # Number of spaces per indentation level
+tabWidth: 4 # Number of spaces per indentation level
 useTabs: false # Indent lines with spaces instead of tabs
 proseWrap: "preserve" # Preserve existing line breaks in Markdown
 

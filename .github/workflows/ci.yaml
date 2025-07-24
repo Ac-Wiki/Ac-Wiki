@@ -1,8 +1,6 @@
-name: site_mkdocs gh-deploy
+name: site_docusaurus check build
 on:
-  push:
-    branches:
-      - main
+  push
 permissions:
   contents: write
 jobs:
@@ -16,15 +14,15 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+      - name: Setup npm
+        uses: actions/setup-node@v4
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force
+          node-version: "24"
+      - name: Setup pnpm
+        run: |
+          npm install -g corepack
+          corepack install
+      - name: Install dependencies
+        run: pnpm install
+      - name: Build
+        run: pnpm build

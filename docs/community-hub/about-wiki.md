@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+title: 关于 Wiki
+---
+
 :::info Wiki
 
     Wiki，即维基，通常指维基网站或维基软件，维基本身是一种协同编辑系统，基于 MediaWiki，最早最知名的站点可能是维基百科。本文收录现存的公开站点（包含飞书、Notion 等非自建站点）供 Ac-Wiki 参考。
@@ -12,7 +17,7 @@
 
 - [http://colleges.chat](http://colleges.chat) 大学生活质量指北，开源，MkDocs
 
-- [https://www.criwits.top/missing](https://www.criwits.top/missing) 你缺失的那门计算机课，未知
+- [https://www.criwits.top/missing](https://www.criwits.top/missing) 你缺失的那门计算机课，Hugo
 
 - [https://csdiy.wiki](https://csdiy.wiki) CS 自学指南，开源，MkDocs
 

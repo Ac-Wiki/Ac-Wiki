@@ -1,4 +1,8 @@
-# **Authenticator**
+---
+sidebar_position: 12.09
+---
+
+# Authenticator
 
 ## 前言
 
