@@ -91,38 +91,12 @@ const config: Config = {
           position: 'left',
           label: '首页',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'LifeSidebar',
-          position: 'left',
-          label: '校园生活',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'AcademicSidebar',
-          position: 'left',
-          label: '学术资源',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'GrowthSidebar',
-          position: 'left',
-          label: '成长通道',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'repositorySidebar',
-          position: 'left',
-          label: '通识技能库',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'communityHubSidebar',
-          position: 'right',
-          label: '共建社区',
-        },
-    
-        {to: '/blog', label: '博客', position: 'right'},
+        {to: '/category/校园生活', label: '校园生活', position: 'left'},
+        {to: '/category/学术资源', label: '学术资源', position: 'left'},
+        {to: '/category/成长通道', label: '成长通道', position: 'left'},
+        {to: '/category/通识技能库', label: '通识技能库', position: 'left'},
+        {to: '/blog', label: '博客', position: 'left'},
+        {to: '/category/共建社区', label: '共建社区', position: 'right'},
         {
           href: 'https://github.com/Ac-Wiki/Ac-Wiki',
           label: 'GitHub',
@@ -137,7 +111,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: '首页',
+              label: 'Tutorial',
               to: '/',
             },
           ],
@@ -156,19 +130,6 @@ const config: Config = {
             {
               label: 'QQ 群组',
               href: 'https://qm.qq.com/q/WJI3hgBcm4',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
