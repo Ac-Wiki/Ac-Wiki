@@ -61,13 +61,13 @@ class AISummaryGenerator:
             #     'max_tokens': 150,
             #     'temperature': 0.3
             # },
-            'gemini': {
-                'url': 'https://one-hub.passerbywtj.us.kg/v1/chat/completions',
-                'model': 'gemini-2.5-pro',
-                'api_key': os.getenv('GOOGLE_API_KEY', 'AIzaSyDwWgffCCyVFZVsRasX3B3arWFaCT1PzNI'),
-                'max_tokens': 150,
-                'temperature': 0.3
-            }
+            #'gemini': {
+            #    'url': 'https://one-hub.passerbywtj.us.kg/v1/chat/completions',
+            #    'model': 'gemini-2.5-pro',
+            #    'api_key': os.getenv('GOOGLE_API_KEY', 'AIzaSyDwWgffCCyVFZVsRasX3B3arWFaCT1PzNI'),
+            #    'max_tokens': 150,
+            #    'temperature': 0.3
+            #}
         }
         
         # 默认使用的AI服务
