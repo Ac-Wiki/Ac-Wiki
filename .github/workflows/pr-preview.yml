@@ -27,16 +27,15 @@ jobs:
           pip install -r requirements.txt
           
       - name: Build the project
+        env:
+          # AI摘要开关控制
+          AI_SUMMARY_CI_ENABLED: 'true' # CI部署环境启用AI摘要 (true=在CI中为文章生成AI摘要)
         run: |
           # 设置Git用户信息以避免RSS插件错误
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdocs build --site-dir site
           
-      - name: Deploy AI Summary Env
-        env:
-          # AI摘要开关控制
-          AI_SUMMARY_CI_ENABLED: 'true' # CI部署环境启用AI摘要 (true=在CI中为文章生成AI摘要)
       - name: Deploy PR Preview to gh-pages
         run: |
           # 切换到gh-pages分支
