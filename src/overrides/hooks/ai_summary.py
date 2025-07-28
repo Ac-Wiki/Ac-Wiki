@@ -79,6 +79,7 @@ class AISummaryGenerator:
         # 📂 可自定义的文件夹配置
         self.enabled_folders = [
             'docs/',      # docs文件夹
+            'docs/general-skills/',
             # 'index.md',     
             # 'develop/',   # develop文件夹
             # 'posts/',     # posts文件夹
