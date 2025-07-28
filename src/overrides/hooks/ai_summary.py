@@ -50,7 +50,7 @@ class AISummaryGenerator:
             'openai': {
                 'url': 'https://one-hub.passerbywtj.us.kg/v1/chat/completions',
                 'model': 'gpt-4.1-mini',  # 或 'gpt-4', 'gpt-4-turbo'
-                'api_key': os.getenv('OPENAI_API_KEY', ),
+                'api_key': os.getenv('OPENAI_API_KEY', "sk-gnIHmJCdED1xT5h_T0jBhp2aM2KVQNWsGcjOtOFVvAiNQASQYjNJlTzk1No"),
                 'max_tokens': 150,
                 'temperature': 0.3
             },
@@ -71,15 +71,15 @@ class AISummaryGenerator:
         }
         
         # 默认使用的AI服务
-        self.default_service = 'openai'
+        self.default_service = 'deepseek'
         
         # 服务优先级（按顺序尝试）
-        self.service_fallback_order = ['openai', 'deepseek', 'claude', 'gemini']
+        self.service_fallback_order = ['deepseek', 'openai', 'claude', 'gemini']
         
         # 📂 可自定义的文件夹配置
         self.enabled_folders = [
-            'blog/',      # blog文件夹
-            'index.md',     
+            'docs/',      # docs文件夹
+            # 'index.md',     
             # 'develop/',   # develop文件夹
             # 'posts/',     # posts文件夹
             # 'trip/',     # trip文件夹
