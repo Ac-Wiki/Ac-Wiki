@@ -206,3 +206,5 @@ plugins:
               as_creation: date.created
               as_update: date.updated
     - tags
+hooks:
+  - docs/overrides/hooks/ai_summary.py      # AI摘要hook
