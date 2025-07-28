@@ -207,4 +207,4 @@ plugins:
               as_update: date.updated
     - tags
 hooks:
-  - docs/overrides/hooks/ai_summary.py      # AI摘要hook
+  - src/overrides/hooks/ai_summary.py      # AI摘要hook
