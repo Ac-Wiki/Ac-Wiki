@@ -1,0 +1,45 @@
+{% extends "base.html" %} {% block site_nav %}{% endblock %} {% block footer
+%}{% endblock %} {% block content %}
+<div class="error-page" style="text-align: center; padding: 2rem">
+    <h1>🔍 页面未找到</h1>
+    <p>抱歉，您访问的页面 <code id="error-path"></code> 不存在。</p>
+
+    <div class="search-suggestion" style="margin: 2rem 0 0.5rem 0">
+        <p>我们为您推荐以下搜索：</p>
+        <div id="search-buttons" style="margin: 1rem 0"></div>
+    </div>
+
+    <div style="margin: 0.5rem 0">
+        <p>加入群组交流讨论：</p>
+        <div
+            style="
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                flex-wrap: wrap;
+            "
+        >
+            <a
+                href="https://qm.qq.com/q/WJI3hgBcm4"
+                target="_blank"
+                class="md-button"
+                >QQ（860675581）</a
+            >
+            <a href="https://t.me/AcWiki" target="_blank" class="md-button"
+                >Telegram</a
+            >
+        </div>
+    </div>
+
+    <div style="margin-top: 2rem">
+        <a href="/" class="md-button md-button--primary">返回首页</a>
+    </div>
+</div>
+
+<style>
+    .md-main {
+        display: flex !important;
+        justify-content: center !important;
+    }
+</style>
+{% endblock %}

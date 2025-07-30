@@ -69,6 +69,10 @@ GitHub 访问神器
 
 局域网多端传送/剪贴板同步软件，支持 iOS，Android，Windows，MacOs
 
+### [Windows11轻松设置](https://www.bilibili.com/opus/904672369138729017)
+
+是一款专门为 Windows11 设计的系统优化工具，提供多种功能以简化系统设置和管理。
+
 ## macOS
 
 ### [Alfred](https://www.alfredapp.com/)
