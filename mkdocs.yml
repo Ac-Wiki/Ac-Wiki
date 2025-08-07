@@ -21,6 +21,9 @@ nav:
     - 学术资源:
           - academic-resources/README.md
           - 一些关键概念: academic-resources/some-key-concepts.md
+          - 资源: 
+                - 网络资源获取指南: academic-resources/how-to-get-resources.md
+                - 数学: academic-resources/math/learning-resources.md
     - 成长通道: growth-path/README.md
     - 通识技能库:
           - general-skills/README.md
@@ -41,6 +44,7 @@ nav:
           - 生活:
                 - 生活实用小技巧: general-skills/life-tips.md
                 - 保健手段: general-skills/health.md
+                - 旅行健康手册: general-skills/health-when-travelling.md
           - 就业:
                 - 企业文化: general-skills/recruit-exercitation.md
           - 方法论:
@@ -136,6 +140,7 @@ extra_javascript:
     - https://cn.vercount.one/js
     - assets/javascripts/mathjax.js
     - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+    - assets/javascripts/404.js
 
 markdown_extensions:
     - abbr
