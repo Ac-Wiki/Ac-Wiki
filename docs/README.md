@@ -133,7 +133,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 #### 🔒 网络安全
 
 - ✅ [密码管理](./general-skills/password_manage.md)
-      <!--- ✅ [账号安全](./general-skills/cyber%20security/Authenticator.md) --->
+  <!--- ✅ [账号安全](./general-skills/cyber%20security/Authenticator.md) --->
 - ✅ [隐私保护](./general-skills/cyber%20security/privacy.md)
 
 #### 🏃 校园应用

@@ -42,7 +42,7 @@
     - 官方博客：[https://www.cnblogs.com/torsor/p/4731153.html](https://www.cnblogs.com/torsor/p/4731153.html)
     - 视频链接（习题课）：[https://www.bilibili.com/video/BV1X7411F7fK](https://www.bilibili.com/video/BV1X7411F7fK)
 
-- **《MIT18.06线性代数》**
+- **《MIT18.06 线性代数》**
     - 作者：[Gilbert Strang 教授](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/lecture-notes/)
     - 官方：[https://web.mit.edu/18.06/www/](https://web.mit.edu/18.06/www/)
     - 视频链接：[https://www.bilibili.com/video/BV1rH4y1N7BW/](https://www.bilibili.com/video/BV1rH4y1N7BW/)
