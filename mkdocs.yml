@@ -21,6 +21,7 @@ nav:
     - 学术资源:
           - academic-resources/README.md
           - 一些关键概念: academic-resources/some-key-concepts.md
+          - 毕业论文（理学）: academic-resources/thesis-bachelor-science.md
           - 资源:
                 - 网络资源获取指南: academic-resources/how-to-get-resources.md
                 - 数学: academic-resources/math/learning-resources.md
