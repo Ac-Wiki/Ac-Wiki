@@ -191,10 +191,45 @@
 ## Linux
 
 <div class="grid cards" markdown>
--   ### [LazyVim](https://github.com/LazyVim/LazyVim?tab=readme-ov-file)
+-   ### [LazyVim](https://github.com/LazyVim/LazyVim?tab=readme-ov-file)(门槛高)
 
     Neovim 的预制发行版，速度快，安装和更新容易。非常适合 Linux 环境使用。
 
+- ### [Gimp](https://www.gimp.org/)
+
+    GNU 发行的强大的图片编辑器，可代替Adobe Photoshop。
+
+- ### [DaVinci Resolve](https://www.blackmagicdesign.com/)
+
+    达芬奇视频剪辑软件，有免费版和商业版。
+
+- ### [WPS Office](https://linux.wps.cn/)
+
+    可以用来代替Microsoft Office。
+
+- ### [LibreOffice](https://www.libreoffice.org/)
+
+    自由，开源的办公软件，可用来代替WPS Office！
+
+- ### [Firefox](https://www.firefox.com)
+
+    全平台通用的浏览器，可吊打Edge。
+
+- ### [Blender](https://www.blender.org/)
+
+    强大的开源3D建模与渲染软件。
+
+- ### [mpv](https://mpv.io/)(门槛较高)
+
+    免费，开源，跨平台的媒体播放器。
+
+- ### [VLC](https://www.videolan.org/vlc/)
+
+    开箱即用的媒体播放器。可代替PotPlayer。
+
+- ### [feh](https://feh.finalrewind.org/)(门槛较高)
+
+    开源免费，极轻量的图片查看器。
 </div>
 
 ## 浏览器插件
@@ -236,7 +271,11 @@
 
           国产开源脚本管理器，目前兼容了大部分油猴和暴力猴脚本
 
-      </div>
+- ### [猫抓](https://github.com/xifangczy/cat-catch)
+
+    网络流媒体下载工具。
+
+    </div>
 
 ## 其他
 
