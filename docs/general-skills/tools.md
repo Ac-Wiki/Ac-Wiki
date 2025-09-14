@@ -18,9 +18,9 @@
 
 - ### [squoosh](https://squoosh.app/)
 
-            图片压缩
+              图片压缩
 
-        </div>
+          </div>
 
 ## Windows
 
@@ -75,9 +75,9 @@
 
 - ### [Windows11 轻松设置](https://www.bilibili.com/opus/904672369138729017)
 
-            是一款专门为 Windows11 设计的系统优化工具，提供多种功能以简化系统设置和管理。
+              是一款专门为 Windows11 设计的系统优化工具，提供多种功能以简化系统设置和管理。
 
-        </div>
+          </div>
 
 ## macOS
 
@@ -135,9 +135,9 @@
 
 - ### [Rectangle](https://github.com/rxhanson/Rectangle)
 
-            窗口管理工具，日常使用开源版本够用了，也可以付费升级到 pro
+              窗口管理工具，日常使用开源版本够用了，也可以付费升级到 pro
 
-        </div>
+          </div>
 
 ## Android
 
@@ -182,11 +182,11 @@
 
 - ### [Auto.js 6](https://github.com/SuperMonster003/AutoJs6) 的社区分支版本
 
-            - 文档： <https://docs.autojs6.com/>
+              - 文档： <https://docs.autojs6.com/>
 
-            Android 平台支持无障碍服务的 JavaScript 自动化工具 (Auto.js 二次开发项目)
+              Android 平台支持无障碍服务的 JavaScript 自动化工具 (Auto.js 二次开发项目)
 
-        </div>
+          </div>
 
 ## Linux
 
@@ -229,9 +229,9 @@
 
 - ### [feh](https://feh.finalrewind.org/)(门槛较高)
 
-        开源免费，极轻量的图片查看器。
+          开源免费，极轻量的图片查看器。
 
-    </div>
+      </div>
 
 ## 浏览器插件
 
@@ -270,13 +270,13 @@
 
 - ### [SpcriptCat](https://github.com/scriptscat/scriptcat)
 
-            国产开源脚本管理器，目前兼容了大部分油猴和暴力猴脚本
+              国产开源脚本管理器，目前兼容了大部分油猴和暴力猴脚本
 
 - ### [猫抓](https://github.com/xifangczy/cat-catch)
 
     网络流媒体下载工具。
 
-      </div>
+        </div>
 
 ## 其他
 
