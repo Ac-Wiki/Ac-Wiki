@@ -24,7 +24,7 @@
 - [https://201.ustclug.org/](https://201.ustclug.org/) 中国科学技术大学《Linux 201》进阶教程，开源，MkDocs
 - [https://wiki.cooo.site/](https://wiki.cooo.site/) 西邮 Wiki，西安邮电大学非官方校园生活指南，开源，VitePress
 - [https://cs4ncu.space/](https://cs4ncu.space/) 寻路之南，写给普通人的大学成长指南 (南昌大学)，开源，MkDocs
-- [https://doc.easy-qfnu.top/](https://doc.easy-qfnu.top/) Easy-QFNU，曲阜师范大学生活指南，开源，VuePress
+- [https://wiki.easy-qfnu.top/](https://wiki.easy-qfnu.top/) 曲奇教务Wiki（原Easy-QFNU，曲阜师范大学生活指南），Pandawiki驱动
 - 欢迎按照类似格式补充～
 
 ## 动态站点
