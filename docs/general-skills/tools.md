@@ -142,9 +142,6 @@
 ## Android
 
 <div class="grid cards" markdown>
--   ### [WakeUp 课程表](https://www.wakeup.fun/)
-
-    小巧强大、简洁无广告的课程表 App，适配全国多所高校，可以一键抓取学校课表信息，并支持桌面小组件、导出到系统日历等功能。该软件也支持 iOS 端。
 
 - ### [GKD](https://gkd.li/)
 
