@@ -34,3 +34,8 @@
 
 - 支持智慧树，学习通等网课
 - 浏览器界面需要缩放合适，部分平台可能需要位于前台
+
+[Yatori-go-console](https://github.com/yatori-dev/yatori-go-console)
+
+- 支持英华学堂，学习通等平台
+- 独立软件、支持docker容器化部署
