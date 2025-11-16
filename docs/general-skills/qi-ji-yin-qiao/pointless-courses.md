@@ -38,4 +38,4 @@
 [Yatori-go-console](https://github.com/yatori-dev/yatori-go-console)
 
 - 支持英华学堂，学习通等平台
-- 独立软件、支持docker容器化部署
+- 独立软件、支持 docker 容器化部署
