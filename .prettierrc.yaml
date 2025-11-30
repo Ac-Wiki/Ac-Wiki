@@ -5,6 +5,7 @@ tabWidth: 4 # Number of spaces per indentation level
 useTabs: false # Indent lines with spaces instead of tabs
 proseWrap: "preserve" # Preserve existing line breaks in Markdown
 
+
 # Future restrictions can be added below as needed
 # For example:
 # printWidth: 120       # Maximum line length
