@@ -92,7 +92,6 @@
 ### 📒 笔记
 
 - [Notion](https://www.notion.so/product/notion-for-education)：知名的笔记协作产品，**免费教育 Plus 计划**，价值 `$10/月`；
-- [语雀](https://www.yuque.com/yuque/welfare/edu#zLvwf): 语雀个人版公益计划，**免费体验专业会员**（或超级会员），价值 `¥99/年`，;
 - [Termius](https://termius.com/education)：现代美观的终端管理工具，包含在 GitHub 学生开发者资源包中，**免费体验 Pro 功能**，价值 `$10/月`；
 
 ### 📑 办公
