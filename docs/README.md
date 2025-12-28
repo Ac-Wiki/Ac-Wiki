@@ -172,8 +172,6 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 ### 北京大学
 
 [![贵校课程](https://img.shields.io/static/v1?label=&message=贵校课程&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/lib-pku/libpku)
-[![气垫船](https://img.shields.io/static/v1?label=&message=气垫船&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/martinwu42/project-hover)
-[![信科资料](https://img.shields.io/static/v1?label=&message=信科资料&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/EECS-PKU-XSB/Shared-learning-materials)
 [![大作业](https://img.shields.io/static/v1?label=&message=大作业&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/tongtzeho/PKUCourse)
 
 ### 清华大学
