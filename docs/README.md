@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <a href="https://github.com/Ac-Wiki/Ac-Wiki">
     <img src="./assets/logo_clear.png" alt="Ac-Wiki Logo" width="200"/>
   </a>
@@ -80,7 +80,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 - ✅ [转专业须知](./campus-life/major-transfer-guide.md)
 - ✅ [辅修/第二学位须知](./campus-life/minor-or-dual-degree.md)
 - ✅ [如何申请学生邮箱](./campus-life/student-email.md)
-- ✅ [图书馆](./campus-life/library.md)
+- ✅ [自律](./campus-life/discipline.md)
 - ✅ [化解矛盾](./campus-life/resolving-conflicts.md)
 - ✅ [人际关系](./campus-life/social-connections.md)
 - ✅ [脱单技巧](./campus-life/getting-out-of-singleness.md)
