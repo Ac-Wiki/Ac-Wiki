@@ -1,30 +1,24 @@
-﻿<div align="center">
-  <a href="https://github.com/Ac-Wiki/Ac-Wiki">
-    <img src="./assets/logo_clear.png" alt="Ac-Wiki Logo" width="200"/>
-  </a>
-</div>
-
-# ✨Ac-Wiki
+﻿# ✨Ac-Wiki
 
 ## 高等教育学社基础知识开源建设工程
 
-_专为大学生群体打造的知识共享平台，助力学业与社会衔接_
+*专为大学生群体打造的知识共享平台，助力学业与社会衔接*
 
-_由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参与！_
+*由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参与！*
 
-[![访问 WIKI](https://img.shields.io/static/v1?label=GitHub&message=访问WIKI&color=2196f3&style=for-the-badge&logo=github&logoColor=white)](https://ac-wiki.org/)
+[访问 WIKI](https://ac-wiki.org/)
 
-[![License](https://img.shields.io/github/license/Ac-Wiki/Ac-Wiki?style=for-the-badge&color=2196f3)](https://github.com/Ac-Wiki/Ac-Wiki/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/Ac-Wiki/Ac-Wiki?style=for-the-badge&logo=github&color=ff9800)](https://github.com/Ac-Wiki/Ac-Wiki/stargazers)
-[![GitHub Commits](https://img.shields.io/github/commit-activity/t/Ac-Wiki/Ac-Wiki?style=for-the-badge&logo=github&label=Commits&color=4caf50)](https://github.com/Ac-Wiki/Ac-Wiki/commits/main)
-[![GitHub Issues](https://img.shields.io/github/issues/Ac-Wiki/Ac-Wiki?style=for-the-badge&logo=github&color=f44336)](https://github.com/Ac-Wiki/Ac-Wiki/issues)
-[![GitHub Contributors](https://img.shields.io/github/contributors/Ac-Wiki/Ac-Wiki?style=for-the-badge&color=9c27b0)](https://github.com/Ac-Wiki/Ac-Wiki/graphs/contributors)
+[License](https://github.com/Ac-Wiki/Ac-Wiki/blob/main/LICENSE)
+[GitHub Stars](https://github.com/Ac-Wiki/Ac-Wiki/stargazers)
+[GitHub Commits](https://github.com/Ac-Wiki/Ac-Wiki/commits/main)
+[GitHub Issues](https://github.com/Ac-Wiki/Ac-Wiki/issues)
+[GitHub Contributors](https://github.com/Ac-Wiki/Ac-Wiki/graphs/contributors)
 
 ## 🔥 特别推荐
 
 > **[Ac-Wiki 航站楼](https://kdocs.cn/l/cm7uuqpXuXew)** - 为解决互联网信息碎片化带来的搜索成本上升，我们计划发起一项大型共建在线文档，邀请你共同建设学术导航
 
-[![立即访问](https://img.shields.io/static/v1?label=&message=立即访问&color=f0c000&style=for-the-badge&logo=internetexplorer&logoColor=white)](https://kdocs.cn/l/cm7uuqpXuXew)
+[立即访问](https://kdocs.cn/l/cm7uuqpXuXew)
 
 ## 🎓 共建计划
 
@@ -36,7 +30,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 ~~临时~~[贡献文档](./community-hub/CONTRIBUTING.md)
 
-[![提交建议](https://img.shields.io/static/v1?label=&message=提交建议&color=2196f3&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ac-Wiki/Ac-Wiki/issues/new)
+[提交建议](https://github.com/Ac-Wiki/Ac-Wiki/issues/new)
 
 ---
 
@@ -62,7 +56,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 ### 📚 学生优惠
 
-- ✅ [**学生优惠**](./general-skills/student-discounts.md)
+- ✅ **[学生优惠](./general-skills/student-discounts.md)**
 - 🚧 **编程 / 开发 / 新质生产力**
 
 ### 🤝 圆梦帮扶
@@ -81,6 +75,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 - ✅ [辅修/第二学位须知](./campus-life/minor-or-dual-degree.md)
 - ✅ [如何申请学生邮箱](./campus-life/student-email.md)
 - ✅ [自律](./campus-life/discipline.md)
+- ✅ [休息的艺术与实践-frank](./campus-life/the-art-and-practice-of-rest.md)
 - ✅ [化解矛盾](./campus-life/resolving-conflicts.md)
 - ✅ [人际关系](./campus-life/social-connections.md)
 - ✅ [脱单技巧](./campus-life/getting-out-of-singleness.md)
@@ -106,19 +101,19 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 ### 📘 方法论
 
-- ✅ [**高效检索信息/获取资源**](./general-skills/search-platforms.md)
+- ✅ **[高效检索信息/获取资源](./general-skills/search-platforms.md)**
 - 🚧 **第一篇论文**
-    - 🚧 学术规范与学术不端行为解释
-    - 🚧 论文是什么，有哪些分类
-    - 🚧 正确设置格式
-    - 🚧 怎样获取参考文献
-    - 🚧 论文组成部分详解
-    - 🚧 如何丰富论文—使用多种工具绘制图表
-    - 🚧 论文查重率 / AIGC 率检测与降低
-    - 🚧 审阅与修订
-    - 🚧 [国内外著名期刊简介、分区、投稿方式](./academic-resources/some-key-concepts.md)
-    - 🚧 其他学术名词解释：什么是影响因子，论文审稿流程，作者顺序与影响
-- ✅ [**计算机基础技能**](./general-skills/computer-basic/SurfingTutorial.md)
+  - 🚧 学术规范与学术不端行为解释
+  - 🚧 论文是什么，有哪些分类
+  - 🚧 正确设置格式
+  - 🚧 怎样获取参考文献
+  - 🚧 论文组成部分详解
+  - 🚧 如何丰富论文—使用多种工具绘制图表
+  - 🚧 论文查重率 / AIGC 率检测与降低
+  - 🚧 审阅与修订
+  - 🚧 [国内外著名期刊简介、分区、投稿方式](./academic-resources/some-key-concepts.md)
+  - 🚧 其他学术名词解释：什么是影响因子，论文审稿流程，作者顺序与影响
+- ✅ **[计算机基础技能](./general-skills/computer-basic/SurfingTutorial.md)**
 - 🚧 **运用新质生产力**
 - 🚧 **合理规划时间**
 - 🚧 **高效学习技巧**
@@ -126,34 +121,33 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 ### 🛠 工具平台
 
 - 🚧 **获取资源**
-- ✅ [**效率优化**](./general-skills/tools.md)
+- ✅ **[效率优化](./general-skills/tools.md)**
 - 🚧 **学术网站**
 - 🚧 **数据检索**
 
 #### 🔒 网络安全
 
 - ✅ [密码管理](./general-skills/password_manage.md)
-  <!--- ✅ [账号安全](./general-skills/cyber%20security/Authenticator.md) --->
 - ✅ [隐私保护](./general-skills/cyber%20security/privacy.md)
 
 #### 🏃 校园应用
 
-- ✅ [**风驰电掣**](./general-skills/qi-ji-yin-qiao/campus-running.md)
-- ✅ [**珍惜时间**](./general-skills/qi-ji-yin-qiao/pointless-courses.md)
+- ✅ **[风驰电掣](./general-skills/qi-ji-yin-qiao/campus-running.md)**
+- ✅ **[珍惜时间](./general-skills/qi-ji-yin-qiao/pointless-courses.md)**
 
 ### 🏆 考赛介绍
 
 - 🚧 **学科等级**
-- ✅ [**专业技能**](./general-skills/study/certification.md)
-- ✅ [**考试竞赛**](./general-skills/study/study.md)
-- ✅ [**研招**](./general-skills/study/yanzhao.md)
-- ✅ [**生化/环境/材料专业指南**](./general-skills//study/biochem-env-materials-guide.md)
+- ✅ **[专业技能](./general-skills/study/certification.md)**
+- ✅ **[考试竞赛](./general-skills/study/study.md)**
+- ✅ **[研招](./general-skills/study/yanzhao.md)**
+- ✅ **[生化/环境/材料专业指南](./general-skills//study/biochem-env-materials-guide.md)**
 
 ## ⏳ 待补充
 
 > 更多内容正在筹备中，欢迎加入共建！
 
-[![提出内容建议](https://img.shields.io/static/v1?label=&message=提出内容建议&color=9c27b0&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ac-Wiki/Ac-Wiki/issues/new)
+[提出内容建议](https://github.com/Ac-Wiki/Ac-Wiki/issues/new)
 
 ---
 
@@ -163,7 +157,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 [《成年人社会生活常识课》](https://www.bilibili.com/video/BV1eWxneME3Q) - 提供了大量实用的社会生活知识，是本项目重要的参考资源。
 
-[![访问主页](https://img.shields.io/static/v1?label=&message=访问主页&color=e91e63&style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/274459325)
+[访问主页](https://space.bilibili.com/274459325)
 
 ## 高校课程资源共享项目
 
@@ -171,97 +165,67 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 
 ### 北京大学
 
-[![贵校课程](https://img.shields.io/static/v1?label=&message=贵校课程&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/lib-pku/libpku)
-[![大作业](https://img.shields.io/static/v1?label=&message=大作业&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/tongtzeho/PKUCourse)
+[贵校课程](https://github.com/lib-pku/libpku)
+[大作业](https://github.com/tongtzeho/PKUCourse)
 
 ### 清华大学
 
-[![计算机](https://img.shields.io/static/v1?label=&message=计算机&color=34a853&style=for-the-badge&logo=github&logoColor=white)](https://github.com/PKUanonym/REKCARC-TSC-UHT)
+[计算机](https://github.com/PKUanonym/REKCARC-TSC-UHT)
 
 ### 浙江大学
 
-[![课程攻略](https://img.shields.io/static/v1?label=&message=课程攻略&color=ea4335&style=for-the-badge&logo=github&logoColor=white)](https://github.com/QSCTech/zju-icicles)
+[课程攻略](https://github.com/QSCTech/zju-icicles)
 
 ### 中国科学技术大学
 
-[![计算机](https://img.shields.io/static/v1?label=&message=计算机&color=fbbc05&style=for-the-badge&logo=github&logoColor=white)](https://github.com/USTC-Resource/USTC-Course)
+[计算机](https://github.com/USTC-Resource/USTC-Course)
 
 ### 上海交通大学
 
-[![课程资料](https://img.shields.io/static/v1?label=&message=课程资料&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/CoolPhilChen/SJTU-Courses/)
-[![生存手册](https://img.shields.io/static/v1?label=&message=生存手册&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/SurviveSJTU/SurviveSJTUManual)
+[课程资料](https://github.com/CoolPhilChen/SJTU-Courses/)
+[生存手册](https://github.com/SurviveSJTU/SurviveSJTUManual)
 
 ### 南京大学
 
-[![复习资料](https://img.shields.io/static/v1?label=&message=复习资料&color=34a853&style=for-the-badge&logo=github&logoColor=white)](https://github.com/idealclover/NJU-Review-Materials)
+[复习资料](https://github.com/idealclover/NJU-Review-Materials)
 
 ### 东南大学
 
-[![课程共享](https://img.shields.io/static/v1?label=&message=课程共享&color=ea4335&style=for-the-badge&logo=github&logoColor=white)](https://github.com/zjdx1998/seucourseshare)
+[课程共享](https://github.com/zjdx1998/seucourseshare)
 
 ### 中山大学
 
-[![课程资料](https://img.shields.io/static/v1?label=&message=课程资料&color=fbbc05&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sysuexam/SYSU-Exam)
+[课程资料](https://github.com/sysuexam/SYSU-Exam)
 
 ### 郑州大学
 
-[![复习资料](https://img.shields.io/static/v1?label=&message=复习资料&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/CooperNiu/ZZU-Courses-Resource)
+[复习资料](https://github.com/CooperNiu/ZZU-Courses-Resource)
 
 ### 广东工业大学
 
-[![课程攻略](https://img.shields.io/static/v1?label=&message=课程攻略&color=34a853&style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenner8023/gdut-course)
+[课程攻略](https://github.com/brenner8023/gdut-course)
 
 ### 江西理工大学
 
-[![学习资料库](https://img.shields.io/static/v1?label=&message=学习资料库&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/sikouhjw/jxust-Learning-database)
+[学习资料库](https://github.com/sikouhjw/jxust-Learning-database)
 
 ### 华中科技大学（计算机学院）
 
-[![HUST-学解](https://img.shields.io/static/v1?label=&message=HUST-学解&color=4285f4&style=for-the-badge&logo=github&logoColor=white)](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie)
+[HUST-学解](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie)
 
 ## 技术支持
 
 本项目 CDN 加速及安全防护由 [Tencent EdgeOne](https://edgeone.ai/zh?from=github) 赞助
 
-![EdgeOne](./assets/TencentEdgeone.png)
+EdgeOne
 
 ---
 
 # 💁 联系我们
 
-<div align="center">
-
-<a href="https://t.me/AcWiki">
-  <img src="https://img.shields.io/static/v1?label=Telegram&message=%E9%A2%91%E9%81%93&color=26A5E4&style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram 频道"/>
-</a>
-<a href="https://t.me/AcFourm">
-  <img src="https://img.shields.io/static/v1?label=Telegram&message=%E7%BE%A4%E7%BB%84&color=26A5E4&style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram 群组"/>
-</a>
-<a href="https://qm.qq.com/q/WJI3hgBcm4">
-  <img src="https://img.shields.io/static/v1?label=QQ%E7%BE%A4&message=860675581&color=12B7F5&style=for-the-badge&logo=tencentqq&logoColor=white" alt="QQ 群"/>
-</a>
-
-</div>
-
-<div align="center">
-  <a href="https://star-history.com/#Ac-Wiki/Ac-Wiki&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Ac-Wiki/Ac-Wiki&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Ac-Wiki/Ac-Wiki&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Ac-Wiki/Ac-Wiki&type=Date"/>
-    </picture>
-  </a>
-</div>
-
 ## 贡献/参与者
 
-感谢所有参与到开发/测试中的朋友们，是大家的帮助让 Ac-Wiki 越来越好！ (\*´▽｀) ノノ
-
-<div align="center">
-  <a href="https://github.com/Ac-Wiki/Ac-Wiki/graphs/contributors">
-    <img src="https://contributors-img.web.app/image?repo=Ac-Wiki/Ac-Wiki&max=200&columns=12" alt="贡献者"/>
-  </a>
-</div>
+感谢所有参与到开发/测试中的朋友们，是大家的帮助让 Ac-Wiki 越来越好！ (´▽｀) ノノ
 
 # 🖥️ 本地部署
 
@@ -278,7 +242,7 @@ _由 Ac-Wiki 维护组及全体用户用 ❤️‍🔥 制作。欢迎您的参�
 ### Win
 
 1. 使用 VSCode 打开仓库目录 `Code.exe ./Ac-Wiki`
-2. 打开 VSCode 的终端``ctrl + ` ``
+2. 打开 VSCode 的终端`ctrl + ``
 3. 验证 python 版本，输入 `python --version` 并回车，有类似 `Python 3.13.3` 的输出说明 python 已正确安装
 4. 输入 `python3 -m venv venv` 以创建一个名为 `venv` 的虚拟环境
 5. 此时，VSCode 会弹出提示，询问你是否使用该环境，选择是
