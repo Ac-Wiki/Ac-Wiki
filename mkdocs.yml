@@ -50,7 +50,29 @@ nav:
           - 就业:
                 - 企业文化: general-skills/recruit-exercitation.md
           - 方法论:
-                - 计算机基础技能: general-skills/computer-basic/SurfingTutorial.md
+                - 计算机基础技能:
+                    - general-skills/computer-basic/SurfingTutorial.md
+                    - chap1:
+                        - 内存与硬盘: general-skills/computer-basic/SurfingTutorial/chap1/ram_disk.md
+                    - chap2:
+                        - 杀毒软件: general-skills/computer-basic/SurfingTutorial/chap2/antivirus.md
+                        - 通讯方法论: general-skills/computer-basic/SurfingTutorial/chap2/bit_torrent.md
+                        - 浏览器选择: general-skills/computer-basic/SurfingTutorial/chap2/browser_choose.md
+                        - 浏览器插件推荐: general-skills/computer-basic/SurfingTutorial/chap2/browser_plugins_recommend.md
+                        - 搜索引擎使用: general-skills/computer-basic/SurfingTutorial/chap2/search_engine.md
+                    - chap3:
+                        - 命令行基础: general-skills/computer-basic/SurfingTutorial/chap3/command.md
+                        - 磁盘管理: general-skills/computer-basic/SurfingTutorial/chap3/disk_management.md
+                        - 环境变量: general-skills/computer-basic/SurfingTutorial/chap3/environment_variables.md
+                        - 文件属性: general-skills/computer-basic/SurfingTutorial/chap3/file_attributes.md
+                        - 文件搜索: general-skills/computer-basic/SurfingTutorial/chap3/file_search.md
+                        - 截图方式: general-skills/computer-basic/SurfingTutorial/chap3/screenshot_ways.md
+                        - 卸载软件: general-skills/computer-basic/SurfingTutorial/chap3/uninstall.md
+                        - 文件解压: general-skills/computer-basic/SurfingTutorial/chap3/unzip.md
+                        - Windows磁盘: general-skills/computer-basic/SurfingTutorial/chap3/windows_disk.md
+                    - chap4:
+                        - 学习资源: general-skills/computer-basic/SurfingTutorial/chap4/XMP.md
+
     - 共建社区:
           - community-hub/README.md
           - 关于 Wiki: community-hub/about-wiki.md
@@ -173,6 +195,7 @@ plugins:
           timezone: Asia/Shanghai
           enable_creation_date: true
           type: timeago
+          fallback_to_build_date: true
     - git-committers:
           enabled: !ENV [CI, false] # 仅在 CI 环境下启用
           repository: Ac-Wiki/Ac-Wiki
