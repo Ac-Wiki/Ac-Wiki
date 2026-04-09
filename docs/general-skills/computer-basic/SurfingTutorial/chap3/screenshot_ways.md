@@ -1,51 +1,43 @@
-# 关于截图
+﻿# 截图方式
 
-比较常用的两种截图方式
+截图是日常沟通、报告问题或保存信息的重要手段。Windows 系统以及常用的第三方软件提供了多种截图方式。
 
-## 使用软件内置功能
+## Windows 内置截图工具
 
-这里仅展示默认快捷键
+Windows 自带了非常方便的截图快捷键：
 
-- QQ 截图：`ctrl + alt +a`
-- 微信截图：按下键盘上的`Alt + A`就可以实现微信截图
+### \Win + Shift + S\ (推荐)
+这是 Windows 10/11 最常用的截图快捷键，按下后屏幕会变暗，顶部出现截图选项卡，支持：
+- **矩形截图**：框选屏幕上的任意区域。
+- **任意形状截图**：自由画圈截图。
+- **窗口截图**：点击某个软件窗口即可单独截取该窗口。
+- **全屏截图**：截取整个屏幕。
 
-## Windows 系统截图
+截图完成后会自动保存在剪贴板中，可以直接在聊天窗口或文档中 \Ctrl + V\ 粘贴。如果点击右下角的通知横幅，还可以进入截图草图进行涂鸦和保存。
 
-- 全屏截图：`PrtSc`，按下后会写入剪贴板，可直接在 画图、PhoneShop、GIMP、QQ、微信等软件中直接粘贴
-- 区域截图：`Win+Shift+S`
+### \PrtScn\ (Print Screen 键)
+按下键盘上的 \PrtScn\ 键会截取整个屏幕，并复制到剪贴板。
+*(在 Windows 11 设置中，可以将其配置为按下即可调用 \Win + Shift + S\ 的截图功能。)*
 
-<!-- ![区域截图效果图](../img/chap3_screenhot_windows.png) -->
-<!-- 致其他维护者，该图片疑似损坏 -->
+### \Alt + PrtScn\
+截取当前**处于活动状态的窗口**，自动存入剪贴板。
 
-## 我推荐的 (Snipaste)
+### \Win + PrtScn\
+截取整个屏幕，并自动保存为图片文件。图片通常保存在路径：\此电脑 > 图片 > 屏幕截图\ 文件夹中。
 
-> 上面的方法，qq 和微信需要打开软件才能用，而 windows 的自带截屏，是有延迟的，如果你想抓拍某个界面，那是没办法用的
+## 常用第三方截图工具
 
-这时候我就要推荐一下**Snipaste**这个截图软件了
+### Snipaste (极其推荐)
+Snipaste 是一款免安装且极为强大的截图与贴图工具。
+- **快捷键**：默认 \F1\ 截图。它能自动检测边界，精确捕捉窗口或 UI 元素。
+- **贴图功能**：默认 \F3\，可以将刚截取的图片或剪贴板里的文本、图片变成一个置顶的悬浮窗口贴在屏幕上，对于对照抄写、核对数据极其有用。
 
-官网：[Snipaste 下载](https://zh.snipaste.com/download.html)
+### 聊天软件截图
+由于大家日常都会挂着微信或 QQ，利用它们的快捷键截图也是非常方便的选择：
+- **微信**：默认快捷键 \Alt + A\
+- **QQ**：默认快捷键 \Ctrl + Alt + A\ （支持长截图、文字识别、屏幕录制等丰富功能）
 
-图：
-
-![Snipaste 官网截图](../img/chap3_snipaste_screenshot.png)
-
-至于它有多好用，大家可以去看少数派的这篇文章
-
-[Windows 上最好的免费截图标注工具：Snipaste - 少数派 (sspai.com)](https://sspai.com/post/34962)
-
-## 其他截图软件
-
-| 工具名称      | 特点                                                | 支持平台            | 链接/备注                                              |
-| :------------ | :-------------------------------------------------- | :------------------ | :----------------------------------------------------- |
-| **Snipaste**  | 专业截图工具，支持贴图功能                          | Windows/macOS       | [https://zh.snipaste.com/](https://zh.snipaste.com/)   |
-| **Flameshot** | 开源免费，功能全面                                  | Windows/Linux/macOS | [https://flameshot.org/](https://flameshot.org/)       |
-| **Greenshot** | 开源免费，支持直接上传到 Imgur 等图床，输出格式多样 | Windows             | [https://getgreenshot.org/](https://getgreenshot.org/) |
-| **ShareX**    | 功能强大，支持工作流自动化，可录制 GIF，开源免费    | Windows             | [https://getsharex.com/](https://getsharex.com/)       |
-
-## 参考资料
-
-- [Windows 截图工具官方文档](https://support.microsoft.com/zh-cn/windows/windows-10-中的截图和草图-5020a8e4-7c34-4a8d-87a9-6b2b799c3eb4)
-- [Snipaste - 高效的截图工具](https://zh.snipaste.com/)
-- [Flameshot 开源截图工具](https://flameshot.org/)
-- [Greenshot 官方文档](https://getgreenshot.org/documentation/)
-- [ShareX 功能说明](https://getsharex.com/features)
+## 网页滚动长截图
+有时候需要截取一整个长网页，普通的截图无法覆盖。
+- 使用 **Edge / Chrome 浏览器**的开发者工具（F12），按下 \Ctrl+Shift+P\，输入 \Capture full size screenshot\ 即可。
+- 或者使用前面提到的 **QQ 截图**中的“长截图”（剪刀带箭头的图标），滚动鼠标滚轮完成录制截长图。

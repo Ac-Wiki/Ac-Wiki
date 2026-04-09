@@ -1,59 +1,40 @@
-# 软件卸载
+﻿# 卸载软件
 
-## Windows
+正确地卸载不再使用的软件，可以释放磁盘空间，保持系统的整洁，并防止残留的后台服务继续占用系统资源。
 
-### 标准卸载方法
+## 错误卸载示范（绝对不要这么做！）
 
-1. 通过控制面板 → 程序和功能 → 卸载程序
-2. 右键点击开始菜单 → 应用和功能 → 选择要卸载的应用
+直接将软件安装目录（比如桌面快捷方式右键打开所在位置的文件夹）**直接删除（Shift + Delete）**！
 
-### 高级卸载方法
+这是非常严重的错误。因为软件安装时，除了把文件复制到该目录外，通常还会：
+- 在 Windows 注册表中写入信息。
+- 在 \C:\Users\用户名\AppData\ 或 \C:\ProgramData\ 目录下创建配置文件和缓存。
+- 注册后台系统服务或右键菜单扩展。
 
-- 使用第三方卸载工具 (如 Revo Uninstaller) 彻底清除残留
-- 手动删除注册表项和安装目录
+如果强制删除文件夹，这些残留项会变成系统垃圾，甚至导致系统报错。
 
-注意：Windows 控制面板的卸载功能实际上是调用软件自带的卸载程序
+## 正确卸载软件的方法
 
-## Linux
+### 方式一：使用 Windows 设置 (推荐)
 
-Linux 发行版根据包管理器有不同的卸载指令：
+1. 点击**开始菜单**，选择**设置**（齿轮图标），或者按下 \Win + I\。
+2. 进入**“应用”** -> **“应用和功能”**（或“安装的应用”）。
+3. 在列表中找到需要卸载的软件，点击右侧的选项按钮（或直接点击），选择**卸载**。
+4. 按照弹出的卸载向导完成操作即可。
 
-### Debian 系发行版
+### 方式二：使用旧版控制面板
 
-例如：Ubuntu
+1. 按 \Win + S\ 搜索“控制面板”并打开。
+2. 点击**“卸载程序”**（在“程序”分类下）。
+3. 在列表中双击需要卸载的软件即可启动卸载程序。
 
-```bash
-sudo apt remove <package_name>      # 移除软件包但保留配置文件
-sudo apt purge <package_name>       # 完全移除软件包和配置文件
-sudo apt autoremove                 # 移除不再需要的依赖包
-```
+### 方式三：使用软件自带的卸载程序
 
-### ArchLinux 系发行版
+很多软件在其安装根目录下，会提供一个名为 \uninst.exe\，\uninstall.exe\ 或者带有“卸载”字样的可执行文件，双击它也能正常卸载该软件。
 
-例如：Manjaro
+## 第三方卸载工具
 
-```bash
-sudo pacman -R <package_name>       # 移除软件包
-sudo pacman -Rns <package_name>     # 完全移除软件包及其依赖
-```
+有些流氓软件（如某些带有强力驻留功能的杀毒软件或全家桶）常规卸载很难清理干净，或者无法卸载。此时可以使用专业的第三方卸载工具：
 
-### 通用方法
-
-- 使用`which <command>`查找软件安装位置
-- 检查`/usr/local/bin`等目录是否有手动安装的软件
-
-## 参考资料
-
-### 第三方卸载工具推荐
-
-#### Windows 平台
-
-- [Revo Uninstaller](https://www.revouninstaller.com/) - 强大的卸载工具，可深度清理注册表和文件残留
-- [IObit Uninstaller](https://www.iobit.com/en/advanceduninstaller.php) - 免费工具，支持批量卸载和强制卸载
-- [Geek Uninstaller](https://geekuninstaller.com/) - 轻量级工具，支持便携版
-
-#### Linux 平台
-
-- [Stacer](https://github.com/oguzhaninan/Stacer) - Linux 系统优化和软件管理工具
-- [Synaptic](https://www.nongnu.org/synaptic/) - 图形化包管理工具 (Debian 系)
-- [BleachBit](https://www.bleachbit.org/) - 系统清理工具，可删除软件残留
+- **Geek Uninstaller**：单文件绿色版，体积非常小巧。它在调用官方卸载程序后，会**额外扫描并清除**残留的注册表项和安装目录，非常干净彻底，十分推荐日常使用。
+- **Revo Uninstaller**：功能更强大，支持强制卸载、安装追踪等高级功能。
