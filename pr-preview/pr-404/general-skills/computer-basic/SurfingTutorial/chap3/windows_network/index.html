@@ -23,7 +23,7 @@
     
     
       
-        <title>Windows 网络设置 - Ac-Wiki 大学生的百科全书</title>
+        <title>Windows 网络设置与排障 - Ac-Wiki 大学生的百科全书</title>
       
     
     
@@ -121,7 +121,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Windows 网络设置
+              Windows 网络设置与排障
             
           </span>
         </div>
@@ -2974,43 +2974,52 @@
         <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 检查网络连接状态
+      1. 认识网络适配器 (网卡)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-ip" class="md-nav__link">
+  <a href="#2-ipconfig" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 理解 IP 地址与网关
+      2. 检查网络参数 (ipconfig)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-dns" class="md-nav__link">
+  <a href="#3-ping" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 修改 DNS 设置 (解决“能上微信但打不开网页”)
+      3. 测试连通性 (ping)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
+  <a href="#4-dns" class="md-nav__link">
     <span class="md-ellipsis">
-      4. 刷新网络缓存
+      4. DNS: 域名解析服务
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
+  <a href="#5-vpn" class="md-nav__link">
     <span class="md-ellipsis">
-      5. 网络代理设置
+      5. 解除系统代理 (VPN 后遗症)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. 网络急救神油指令！
     </span>
   </a>
   
@@ -3048,40 +3057,73 @@
   
 
 
-<h1 id="windows">Windows 网络设置<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h1>
-<p>对于计算机专业的学生，掌握基本的网络设置和排障方法是必修课。</p>
-<h2 id="1">1. 检查网络连接状态<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
-<ul>
-<li>快捷键：<code>Win + R</code> 输入 <code>ncpa.cpl</code>。</li>
-<li>你可以直观地看到当前的以太网（网线）和 Wi-Fi 连接状态，或者在这里禁用/启用网卡。</li>
-</ul>
-<h2 id="2-ip">2. 理解 IP 地址与网关<a class="headerlink" href="#2-ip" title="Permanent link">&para;</a></h2>
-<ul>
-<li>在终端输入 <code>ipconfig</code>：<ul>
-<li><strong>IPv4 地址</strong>：你在局域网内的证件号（如 <code>192.168.x.x</code>）。</li>
-<li><strong>默认网关</strong>：通常是你路由器的地址（如 <code>192.168.1.1</code>）。</li>
-</ul>
-</li>
-</ul>
-<h2 id="3-dns">3. 修改 DNS 设置 (解决“能上微信但打不开网页”)<a class="headerlink" href="#3-dns" title="Permanent link">&para;</a></h2>
-<ul>
-<li>很多时候网页无法访问是因为运营商的 DNS 故障。</li>
-<li><strong>推荐 DNS</strong>：<ul>
-<li>腾讯 DNS: <code>119.29.29.29</code></li>
-<li>阿里 DNS: <code>223.5.5.5</code></li>
-<li>Google DNS: <code>8.8.8.8</code> (需魔法)</li>
-</ul>
-</li>
-</ul>
-<h2 id="4">4. 刷新网络缓存<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
-<p>当网络出现诡异问题时，可以尝试在管理员模式的终端运行：
-<div class="highlight"><pre><span></span><code><span class="n">ipconfig</span> <span class="p">/</span><span class="n">flushdns</span>  <span class="c"># 刷新 DNS 缓存</span>
-<span class="n">netsh</span> <span class="n">winsock</span> <span class="n">reset</span>  <span class="c"># 重置网络目录</span>
-</code></pre></div></p>
-<h2 id="5">5. 网络代理设置<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
-<ul>
-<li>在“设置 -&gt; 网络和 Internet -&gt; 代理”中，可以手动配置代理服务器，这通常是使用科学上网工具后的必要检查项。</li>
-</ul>
+<h1 id="windows">Windows 网络设置与排障<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h1>
+<p>不论是在连接校园网、配置路由器，还是面对“为什么我的电脑连上了 WiFi 却上不了网”的灵魂拷问，掌握基本的 Windows 网络知识和排障指令都是非常有必要的。</p>
+<h2 id="1">1. 认识网络适配器 (网卡)<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<p>网络适配器就是俗称的“网卡”，它是你的电脑连接外界的门户。主要分为两类：
+- <strong>以太网 (Ethernet)</strong>：有线网卡，通过网线连接，速度最稳、延迟最低，打游戏首选。
+- <strong>WLAN (Wi-Fi)</strong>：无线网卡，连接无线热点。</p>
+<p><strong>如何查看和管理网卡？</strong>
+1. 按下快捷键 \Win + R 打开运行窗口。
+2. 输入 \
+cpa.cpl 后回车。
+3. 出现的“网络连接”窗口中，你可以直观地看到所有网卡的状态。
+   - 如果某个网卡显示灰色 已禁用，你可以右键点击它选择“启用”。
+   - 当遇到网络连接卡死、连上没网等疑难杂症时，有时 <strong>右键 -&gt; 禁用</strong>，等几秒后再 <strong>右键 -&gt; 启用</strong> ，这一套“软重启网卡”的组合拳就能奇迹般地解决问题。</p>
+<h2 id="2-ipconfig">2. 检查网络参数 (ipconfig)<a class="headerlink" href="#2-ipconfig" title="Permanent link">&para;</a></h2>
+<p>在命令行（cmd 或 PowerShell）中输入 \ipconfig 即可快速了解当前网络状态：</p>
+<p>\\powershell
+ipconfig
+\\
+主要关注以下三个参数：
+- <strong>IPv4 地址 (IP Address)</strong>：你在这片局域网内的“门牌号”，常见的如 \192.168.1.5 或者是校园网分的 \10.x.x.x\。
+- <strong>子网掩码 (Subnet Mask)</strong>：用来划分网络区域，常见的是 \255.255.255.0\。
+- <strong>默认网关 (Default Gateway)</strong>：内网通向互联网的总出口，通常就是你的<strong>路由器的管理 IP 地址</strong>（例如 \192.168.1.1\）。在浏览器里输入这个地址，就能进入路由器的后台管理页面。</p>
+<p>如果你的 IP 地址是 \169.254.x.x\，说明你的电脑没有正常从路由器获取到 IP，一般是网线没插好或者路由器的 DHCP 服务挂了。</p>
+<p><em>(输入 ipconfig /all 可以查看更详细的信息，包括网卡的 MAC 地址/物理地址。)</em></p>
+<h2 id="3-ping">3. 测试连通性 (ping)<a class="headerlink" href="#3-ping" title="Permanent link">&para;</a></h2>
+<p>\ping 是史上最伟大的网络测速与故障排查工具。它会向目标发送一小个数据包，然后计算它传过去再传回来需要的时间（延迟）。</p>
+<p><strong>用法：</strong> 在终端中输入 \ping &lt;目标网址或IP&gt;\。
+\\powershell
+ping baidu.com
+\\
+如果返回 \时间=25ms\，说明网络通畅且速度不错。如果返回 \请求超时 (Request timed out)\，则说明网络不通或者对方拒绝了你的访问。</p>
+<p><strong>排障三连 \ping\：</strong>
+1. \ping 127.0.0.1\：这是本地回环地址，通了说明你电脑的网卡驱动没毛病。
+2. \ping 你的网关IP (如 \192.168.1.1)：通了说明你电脑到路由器的连接没问题（内网通畅）。
+3. \ping 223.5.5.5 或 \ping baidu.com\：测试外网连通性。如果 ping 数字能通，但是 ping 域名不通，说明是 DNS 坏了。</p>
+<h2 id="4-dns">4. DNS: 域名解析服务<a class="headerlink" href="#4-dns" title="Permanent link">&para;</a></h2>
+<p><strong>什么是 DNS？</strong>
+电脑不认识 \www.bilibili.com\，它只认识 \119.29.29.29 这种纯数字 IP。<strong>DNS（Domain Name System） 就是互联网上的“电话号码簿”</strong>，它帮你把字母域名翻译成相应的数字 IP。</p>
+<p><strong>网络正常但网页打不开？可能是 DNS 挂了！</strong>
+有时候你的微信能正常发消息聊天（因为微信基于 IP 直接连接），但打开浏览器却怎么也进不去任何网页。这多半是因为运营商分配的默认 DNS 节点出故障崩溃了。</p>
+<p>此时，你可以手动修改使用公共、可靠的 DNS：
+- <strong>阿里 DNS</strong>：\223.5.5.5 和 \223.6.6.6\
+- <strong>腾讯 DNSPod</strong>：\119.29.29.29\
+- <strong>114 DNS</strong>：\114.114.114.114\
+- <strong>Google 公共 DNS</strong>：\8.8.8.8\（通常需要魔法才能连稳）</p>
+<p><strong>如何在 Windows 中修改？</strong>
+在 \
+cpa.cpl\（网络连接）面板中，右键你正在使用的网卡 -&gt; <strong>属性</strong> -&gt; 找到 <strong>“Internet 协议版本 4 (TCP/IPv4)”</strong> 双击 -&gt; 选择<strong>“使用下面的 DNS 服务器地址”</strong>，然后填入上面的公共 DNS IP 即可。</p>
+<h2 id="5-vpn">5. 解除系统代理 (VPN 后遗症)<a class="headerlink" href="#5-vpn" title="Permanent link">&para;</a></h2>
+<p>有很多同学在使用完某些“科学上网”代理软件（VPN）后，软件非正常关闭（比如直接结束进程或电脑意外断电），导致代理软件没有来得及清理它在系统中强制留下的代理设置。</p>
+<p>这会导致你开机后<strong>什么网页都打不开，所有网络服务全部瘫痪</strong>，浏览器提示类似 \ERR_PROXY_CONNECTION_FAILED\。</p>
+<p><strong>解决办法：</strong>
+1. 按 \Win + S 搜索 <strong>“代理服务器设置”</strong> 并打开。
+2. 在“手动设置代理”这一栏中，将<strong>“使用代理服务器”的开关关闭</strong>。
+3. 确保“自动检测设置”处于开启状态。正常情况下，网络将立即恢复。</p>
+<h2 id="6">6. 网络急救神油指令！<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<p>如果以上方法全部失败，网络还是处于某种玄学的连接异常状态，你可以祭出微软官方的“网络重置绝杀指令”。它会清空几乎所有的网络状态缓存并重置底层通信目录。</p>
+<p>在<strong>以管理员身份运行的命令提示符（cmd）或 PowerShell</strong> 中，逐行输入并回车：</p>
+<p>\\powershell
+:: 刷新 DNS 客户端解析缓存
+ipconfig /flushdns</p>
+<p>:: 重置网络接口卡设置
+netsh int ip reset</p>
+<p>:: 重置 TCP/IP 协议栈（修复 Winsock 目录）
+netsh winsock reset
+\\
+执行完毕后，重启电脑。大约 95% 以上令人迷惑的 Windows 本地网络软件故障，都会在此次重启后烟消云散。</p>
 
 
 
@@ -3104,7 +3146,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-04-09T18:49:09+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-04-09</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-04-09T19:04:57+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-04-09</span>
   </span>
 
     
