@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#windows" class="md-skip">
           跳转至
         </a>
       
@@ -2647,28 +2647,46 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#2-c" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 关键术语解析
+      2. C盘 (系统盘) 的特殊地位
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. 关键术语解析">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-file-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 文件系统 (File System)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 文件系统 (File System)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mbr-vs-gpt" class="md-nav__link">
+  <a href="#ntfsnew-technology-file-system" class="md-nav__link">
     <span class="md-ellipsis">
-      分区表格式：MBR vs GPT
+      NTFS（New Technology File System）
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#ntfs-vs-exfat" class="md-nav__link">
+  <a href="#fat32" class="md-nav__link">
     <span class="md-ellipsis">
-      文件系统：NTFS vs exFAT
+      FAT32
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exfat" class="md-nav__link">
+    <span class="md-ellipsis">
+      exFAT
     </span>
   </a>
   
@@ -2676,24 +2694,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 分区建议 (最佳实践)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-diskgenius" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 推荐工具：DiskGenius
-    </span>
-  </a>
   
 </li>
       
@@ -3115,28 +3115,46 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#2-c" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 关键术语解析
+      2. C盘 (系统盘) 的特殊地位
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. 关键术语解析">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-file-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 文件系统 (File System)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 文件系统 (File System)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mbr-vs-gpt" class="md-nav__link">
+  <a href="#ntfsnew-technology-file-system" class="md-nav__link">
     <span class="md-ellipsis">
-      分区表格式：MBR vs GPT
+      NTFS（New Technology File System）
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#ntfs-vs-exfat" class="md-nav__link">
+  <a href="#fat32" class="md-nav__link">
     <span class="md-ellipsis">
-      文件系统：NTFS vs exFAT
+      FAT32
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exfat" class="md-nav__link">
+    <span class="md-ellipsis">
+      exFAT
     </span>
   </a>
   
@@ -3144,24 +3162,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 分区建议 (最佳实践)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-diskgenius" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 推荐工具：DiskGenius
-    </span>
-  </a>
   
 </li>
       
@@ -3197,41 +3197,37 @@
   
 
 
-<h1 id="_1">硬盘分区与文件系统：数据的“公寓大楼”<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>作为计算机专业的学生，你需要理解硬盘是如何从一块物理金属/闪存芯片变成你电脑里一个个 C 盘、D 盘的。</p>
+<h1 id="windows">认识 Windows 磁盘与文件系统<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h1>
+<p>在日常使用中，我们经常说“C盘满了”、“把游戏下到D盘”。那么，Windows 中的磁盘到底是怎样运作的？</p>
 <h2 id="1-vs">1. 物理硬盘 vs 逻辑分区<a class="headerlink" href="#1-vs" title="Permanent link">&para;</a></h2>
+<p>当你买了一台电脑，里面通常装了一块有着标称容量的物理硬盘（例如一块 1TB 的 SSD）。
+为了方便管理文件，我们会在这一块物理硬盘上划出不同的“逻辑区域”，并给它们分配盘符，比如 \C: 和 \D:\。这就是<strong>逻辑分区（Partition）</strong>。</p>
 <ul>
-<li><strong>物理硬盘</strong>：你拿在手里的实体（SSD 或 HDD）。</li>
-<li><strong>逻辑分区 (Partition)</strong>：在系统里看到的 C 盘、D 盘。</li>
-<li><strong>神技</strong>：如果你的电脑只有一个 C 盘，建议通过“磁盘管理”分出一个 D 盘专门放数据。这样重装系统时，D 盘的数据不会丢失。</li>
+<li>这个过程就像是：你买了一套 100 平米的毛坯房（物理硬盘），然后用墙壁把它隔成了卧室（C盘）、客厅（D盘）和书房（E盘）。</li>
 </ul>
-<h2 id="2">2. 关键术语解析<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
-<h3 id="mbr-vs-gpt">分区表格式：MBR vs GPT<a class="headerlink" href="#mbr-vs-gpt" title="Permanent link">&para;</a></h3>
+<h2 id="2-c">2. C盘 (系统盘) 的特殊地位<a class="headerlink" href="#2-c" title="Permanent link">&para;</a></h2>
+<p>在 Windows 中，C盘具有至高无上的特殊地位，因为<strong>操作系统（Windows 本身）就安装在这里</strong>。</p>
 <ul>
-<li><strong>MBR (老旧)</strong>：支持最大 2TB 硬盘，最多 4 个主分区。</li>
-<li><strong>GPT (现代)</strong>：支持超大硬盘，几乎无限分区，配合 UEFI 启动速度快且更安全。2020 年后的电脑请务必使用 GPT。</li>
+<li><strong>C盘空间不足的后果</strong>：Windows 需要一定的剩余空间来存放虚拟内存（临时交换数据用）、更新下载缓存和休眠文件。如果C盘飘红（通常剩余空间小于 10GB），你的电脑会明显变得非常卡顿，甚至无法开机。</li>
+<li><strong>软件安装原则</strong>：为了保持系统的干净和快速响应，除了浏览器、微信这类每天高频使用的核心软件可以默认装在C盘，像几百个 GB 的大型游戏、Adobe 全家桶、各种大型开发环境，<strong>强烈建议在安装时手动修改路径到 D 盘！</strong>。</li>
 </ul>
-<h3 id="ntfs-vs-exfat">文件系统：NTFS vs exFAT<a class="headerlink" href="#ntfs-vs-exfat" title="Permanent link">&para;</a></h3>
+<h2 id="3-file-system">3. 文件系统 (File System)<a class="headerlink" href="#3-file-system" title="Permanent link">&para;</a></h2>
+<p>文件系统是你修好墙壁（搞好分区）后，用来管理存放物品（数据）的底层整理规则。目前主流的有以下几种：</p>
+<h3 id="ntfsnew-technology-file-system">NTFS（New Technology File System）<a class="headerlink" href="#ntfsnew-technology-file-system" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>NTFS</strong>：Windows 的标配。支持权限控制、压缩、断电恢复。</li>
-<li><strong>exFAT</strong>：U 盘和移动硬盘的首选。在 Windows 和 Mac 之间通用性最强。</li>
+<li><strong>适用场景</strong>：电脑的本地硬盘（C盘、D盘默认全都是 NTFS）。</li>
+<li><strong>特点</strong>：支持单个文件最大 16EB（无限大），支持复杂的权限管理和文件压缩，安全性高，支持日志记录（断电不易丢数据）。</li>
 </ul>
-<h2 id="3">3. 分区建议 (最佳实践)<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<h3 id="fat32">FAT32<a class="headerlink" href="#fat32" title="Permanent link">&para;</a></h3>
 <ul>
-<li><strong>C 盘 (系统盘)</strong>：建议 150GB - 256GB 以上。随着软件更新，C 盘会膨胀。</li>
-<li><strong>D 盘 (软件/项目)</strong>：安装 VS Code、Python、游戏等大的软件。</li>
-<li><strong>E 盘 (备份/资料)</strong>：存放照片、视频和安装包镜像。</li>
+<li><strong>适用场景</strong>：一些小容量的旧式 U 盘，或者用来刷主板 BIOS 的特定格式 U 盘。</li>
+<li><strong>特点</strong>：兼容性极强，几乎所有的老电视、车载音响都能认出它。但它有个致命缺点：<strong>不支持存放大于 4GB 的单文件！</strong> 如果你用 FAT32 的 U盘拷贝一个 5GB 的电影，它会提示“目标驱动器已满”（即使你的 U 盘还有 30GB 空闲）。</li>
 </ul>
-<hr />
-<h2 id="4-diskgenius">4. 推荐工具：DiskGenius<a class="headerlink" href="#4-diskgenius" title="Permanent link">&para;</a></h2>
-<p>如果系统自带的“磁盘管理”功能不够用，请使用国产神级软件 <strong>DiskGenius</strong>。它可以帮你：
-- 找回误删的分区。
-- 无损转换分区表格式 (MBR &lt;-&gt; GPT)。
-- 坏道检测。</p>
-<hr />
-<blockquote>
-<p><strong>警告</strong>：对分区进行“格式化”或“删除”操作会永久清除数据。在操作前，请务必确认你的数据已有备份！</p>
-</blockquote>
+<h3 id="exfat">exFAT<a class="headerlink" href="#exfat" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>适用场景</strong>：目前<strong>大容量 U 盘和移动硬盘的最佳选择</strong>。</li>
+<li><strong>特点</strong>：微软专门为闪存设备推出的格式。它既能存大于 4GB 的大文件，又能在 Windows 和 macOS 上完美实现即插即用和顺畅读写。如果你买了一个新 U 盘，建议第一时间右键格式化为 exFAT。</li>
+</ul>
 
 
 
@@ -3254,7 +3250,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-04-09T18:56:34+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-04-09</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-04-09T19:08:46+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-04-09</span>
   </span>
 
     

@@ -2479,7 +2479,7 @@
         <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 软件安装的礼仪
+      1. 如何打开“磁盘管理”
     </span>
   </a>
   
@@ -2488,16 +2488,16 @@
         <li class="md-nav__item">
   <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 磁盘分析工具
+      2. 认识分区视图
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
+  <a href="#3-c-d" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 科学卸载软件
+      3. 实操：如何把 C盘 拆一部分给新建的 D盘？
     </span>
   </a>
   
@@ -2506,7 +2506,16 @@
         <li class="md-nav__item">
   <a href="#4" class="md-nav__link">
     <span class="md-ellipsis">
-      4. 清理系统垃圾
+      4. 实操：如何把多余的盘合并？
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bitlocker" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 什么是 BitLocker？
     </span>
   </a>
   
@@ -3084,7 +3093,7 @@
         <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 软件安装的礼仪
+      1. 如何打开“磁盘管理”
     </span>
   </a>
   
@@ -3093,16 +3102,16 @@
         <li class="md-nav__item">
   <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 磁盘分析工具
+      2. 认识分区视图
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
+  <a href="#3-c-d" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 科学卸载软件
+      3. 实操：如何把 C盘 拆一部分给新建的 D盘？
     </span>
   </a>
   
@@ -3111,7 +3120,16 @@
         <li class="md-nav__item">
   <a href="#4" class="md-nav__link">
     <span class="md-ellipsis">
-      4. 清理系统垃圾
+      4. 实操：如何把多余的盘合并？
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-bitlocker" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 什么是 BitLocker？
     </span>
   </a>
   
@@ -3149,31 +3167,38 @@
   
 
 
-<h1 id="_1">磁盘管理与软件卸载：保持系统如新<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>随着软件和数据的增多，你的电脑会慢慢变“胖”。如果不通过科学的管理，这种膨胀会导致系统卡顿。</p>
-<h2 id="1">1. 软件安装的礼仪<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>拒绝一键安装 (Quick Install)</strong>：它会把软件塞进你的 C 盘，并可能附赠三个你不想要的插件。</li>
-<li><strong>自定义路径 (Customize)</strong>：养成将软件安装到 D:\Softwares 的好习惯，保持 C 盘作为纯净的系统区。</li>
-</ul>
-<h2 id="2">2. 磁盘分析工具<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
-<p>当你发现 C 盘红了，却不知道是什么占了空间，请使用：
-- <strong>SpaceSniffer</strong>：以方块块图形式展现磁盘占用情况，哪块大就是哪个文件大。
-- <strong>TreeSize Free</strong>：以目录树形式查看文件夹大小，非常适合找寻隐藏的日志文件或缓存。</p>
-<h2 id="3">3. 科学卸载软件<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>错误方式</strong>：在文件夹里直接点 Delete 删除目录。这会留下大量无用的注册表项。</li>
-<li><strong>推荐工具：Geek Uninstaller</strong>。它在调用软件自带的卸载程序后，会全自动扫描并一键清除残留，让你的电脑没有任何冗余。</li>
-</ul>
-<h2 id="4">4. 清理系统垃圾<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>磁盘清理 (Disk Cleanup)</strong>：Windows 自带，安全清理旧补丁文件。</li>
-<li><strong>存储感知 (Storage Sense)</strong>：在 Windows 设置中开启，它会自动清理回收站和下载文件夹。</li>
-</ul>
-<hr />
-<blockquote>
-<p><strong>切记</strong>：不要随意下载所谓的“一键优化”或“强力清理”工具，它们往往会带来比垃圾文件更多的广告。</p>
-</blockquote>
+<h1 id="_1">磁盘管理与分区操作<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>在 Windows 中，你完全可以通过内置的“磁盘管理”工具，像搭积木一样自由地调整你的磁盘空间，而无需下载任何第三方分区软件。</p>
+<h2 id="1">1. 如何打开“磁盘管理”<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<p>最简便的方法：<strong>右键点击</strong>屏幕左下角的“开始菜单”（或者按 \Win + X\），在弹出的菜单中选择 <strong>“磁盘管理”</strong>（Disk Management）。</p>
+<h2 id="2">2. 认识分区视图<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p>打开后，页面下半部分会以不同的色块展示你的物理磁盘：
+- <strong>磁盘 0、磁盘 1</strong>：代表物理插在主板上的真实硬盘数量。
+- <strong>带盘符的区块 (C: / D:)</strong>：正常使用的分区。
+- <strong>带有“EFI 系统分区”和“恢复分区”的隐藏块</strong>：这是 Windows 启动所需的底层文件所在位置。<strong>绝对不要尝试去删除或修改它们！</strong>
+- <strong>未分配空间（黑色色块）</strong>：这是一片还没有建房子的“荒地”，无法用来存数据。</p>
+<h2 id="3-c-d">3. 实操：如何把 C盘 拆一部分给新建的 D盘？<a class="headerlink" href="#3-c-d" title="Permanent link">&para;</a></h2>
+<p>假设你刚买了一台崭新的轻薄本，1TB 的硬盘所有空间全都划给了出厂的 C盘。为了数据安全，你想要一个 D盘 专门存放个人文件。</p>
+<p><strong>第一步：压缩卷（从 C盘 切出空间）</strong>
+1. 在磁盘管理中，找到 C盘 色块，<strong>右键 -&gt; 压缩卷</strong>。
+2. 系统会计算一会儿，然后问你“输入压缩空间量”。注意这里的单位是 MB。如果你想切出 500GB 给未来的 D盘，就在这里输入 \512000 (1GB = 1024MB)。
+3. 点击“压缩”。完成后，C盘 的右侧会多出一个黑色的“未分配”色块。</p>
+<p><strong>第二步：新建卷（把未分配空间变成 D盘）</strong>
+1. 右键点击那个黑色的“未分配”色块，选择 <strong>“新建简单卷”</strong>。
+2. 一路点击“下一步”，给它分配一个盘符（比如 D），并在格式化步骤中确保文件系统是 <strong>NTFS</strong>。
+3. 点击完成。恭喜你，你的 D盘 已经诞生了！</p>
+<h2 id="4">4. 实操：如何把多余的盘合并？<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<p>如果你觉得分区太多很乱，想要把 E盘 的空间合并到 D盘 里去：</p>
+<p><strong>⚠️ 警告：合并分区意味着必须被吃掉的那个分区！以下操作将会完全清空 E盘 的所有数据！请提前把 E盘 数据备份到别处。</strong></p>
+<ol>
+<li>右键点击 E盘 -&gt; <strong>删除卷</strong>。删除后，E盘 会变成一块黑色的“未分配”空间。</li>
+<li><em>重要前提</em>：这块黑色的未分配空间，必须紧紧挨在 D盘 的<strong>右侧</strong>，且中间没有其他色块阻挡！</li>
+<li>右键点击 D盘 -&gt; <strong>扩展卷</strong> -&gt; 一路点击下一步把空闲空间吃掉。合并完成。</li>
+</ol>
+<h2 id="5-bitlocker">5. 什么是 BitLocker？<a class="headerlink" href="#5-bitlocker" title="Permanent link">&para;</a></h2>
+<p>在磁盘管理或文件资源管理器中，你有时会看到磁盘图标上有一把<strong>小锁</strong>，这说明它开启了 BitLocker。
+这是 Windows 专业版/教育版（现在部分家庭版也支持设备加密）提供的一种底层的全盘加密技术。它极其安全，即使小偷把你的硬盘拔下来插到别的电脑上，没有密码也绝对读不出一张图片。
+- <strong>重点</strong>：如果在系统更新、重装或更换主板后触发了安全机制，电脑开机会要求输入一段 48 位的恢复密钥。请务必在你的微软云端账号里，或者某个安全的 U 盘里保存好这把至关重要的密钥！</p>
 
 
 
@@ -3196,7 +3221,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-04-09T18:56:34+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-04-09</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-04-09T19:08:46+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-04-09</span>
   </span>
 
     
@@ -3211,29 +3236,6 @@
 
     
     
-    
-      
-  <span class="md-source-file__fact">
-    
-      
-  <span class="md-icon" title="贡献者">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
-  </span>
-  <span>GitHub</span>
-
-    
-    <nav>
-      
-        <a href="https://github.com/ztm0929" class="md-author" title="@ztm0929">
-          
-          <img src="https://avatars.githubusercontent.com/u/34964951?v=4&amp;size=72" alt="ztm0929">
-        </a>
-      
-      
-      
-    </nav>
-  </span>
-
     
   </aside>
 
