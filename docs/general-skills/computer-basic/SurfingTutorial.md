@@ -34,7 +34,7 @@
 - [浏览器的插件推荐](./SurfingTutorial/chap2/browser_plugins_recommend.md)
 - [我需要杀毒软件吗](./SurfingTutorial/chap2/antivirus.md)
 - [BitTorrent](./SurfingTutorial/chap2/bit_torrent.md)
-- 开发者工具的一些简单操作
+- [开发者工具的一些简单操作](./SurfingTutorial/chap2/dev_tools.md)
 
 ### 第三章 操作系统的使用
 
@@ -43,10 +43,10 @@
 - [截图的 N 种方式](./SurfingTutorial/chap3/screenshot_ways.md)
 - [文件的属性](./SurfingTutorial/chap3/file_attributes.md)
 - [压缩包](./SurfingTutorial/chap3/unzip.md)
-- Windows 网络设置
+- [Windows 网络设置](./SurfingTutorial/chap3/windows_network.md)
 - [命令行与命令](./SurfingTutorial/chap3/command.md)
 - [环境变量](./SurfingTutorial/chap3/environment_variables.md)
-- 用户和锁屏密码
+- [用户和锁屏密码](./SurfingTutorial/chap3/user_passwords.md)
 - [文件搜索](./SurfingTutorial/chap3/file_search.md)
 - [硬盘的分区](./SurfingTutorial/chap3/windows_disk.md)
 - [管理硬盘空间](./SurfingTutorial/chap3/disk_management.md)
