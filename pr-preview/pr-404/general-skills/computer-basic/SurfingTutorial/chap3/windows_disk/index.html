@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#windows" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -2638,36 +2638,60 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#1-vs" class="md-nav__link">
     <span class="md-ellipsis">
-      开始：进入磁盘管理
+      1. 物理硬盘 vs 逻辑分区
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
-      压缩卷
+      2. 关键术语解析
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 关键术语解析">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mbr-vs-gpt" class="md-nav__link">
+    <span class="md-ellipsis">
+      分区表格式：MBR vs GPT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ntfs-vs-exfat" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件系统：NTFS vs exFAT
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 分区建议 (最佳实践)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#4-diskgenius" class="md-nav__link">
     <span class="md-ellipsis">
-      加硬盘后分区
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      第三方分区工具
+      4. 推荐工具：DiskGenius
     </span>
   </a>
   
@@ -3082,36 +3106,60 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#1-vs" class="md-nav__link">
     <span class="md-ellipsis">
-      开始：进入磁盘管理
+      1. 物理硬盘 vs 逻辑分区
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
-      压缩卷
+      2. 关键术语解析
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 关键术语解析">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mbr-vs-gpt" class="md-nav__link">
+    <span class="md-ellipsis">
+      分区表格式：MBR vs GPT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ntfs-vs-exfat" class="md-nav__link">
+    <span class="md-ellipsis">
+      文件系统：NTFS vs exFAT
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 分区建议 (最佳实践)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#4-diskgenius" class="md-nav__link">
     <span class="md-ellipsis">
-      加硬盘后分区
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      第三方分区工具
+      4. 推荐工具：DiskGenius
     </span>
   </a>
   
@@ -3149,21 +3197,41 @@
   
 
 
-<h1 id="windows">windows 硬盘分区<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h1>
-<h2 id="_1">开始：进入磁盘管理<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>在计算机右键-&gt;管理（图一）-&gt;磁盘管理（图二）</p>
-<p>win11 shift+ 鼠标右键可调出传统管理</p>
-<p><img alt="图 1" src="../../img/chap3-disk1.png" /></p>
-<p><img alt="图 2" src="../../img/chap3-disk2.png" /></p>
-<h2 id="_2">压缩卷<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>一般用于 C 盘大小不足时，压缩 D 盘空间，把那部分空间和 C 盘合并</p>
-<p><a href="https://zhuanlan.zhihu.com/p/134176556">Windows 如何对硬盘进行分区？ - 知乎 (zhihu.com)</a></p>
-<h2 id="_3">加硬盘后分区<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<p><a href="https://zhuanlan.zhihu.com/p/73456495">新加装的硬盘如何分区？硬盘分区教程 - 知乎 (zhihu.com)</a></p>
-<h2 id="_4">第三方分区工具<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<p>diskgenius</p>
-<p>使用详情见官方教程</p>
-<p><a href="https://www.diskgenius.cn/help/">软件帮助 - DiskGenius</a></p>
+<h1 id="_1">硬盘分区与文件系统：数据的“公寓大楼”<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>作为计算机专业的学生，你需要理解硬盘是如何从一块物理金属/闪存芯片变成你电脑里一个个 C 盘、D 盘的。</p>
+<h2 id="1-vs">1. 物理硬盘 vs 逻辑分区<a class="headerlink" href="#1-vs" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>物理硬盘</strong>：你拿在手里的实体（SSD 或 HDD）。</li>
+<li><strong>逻辑分区 (Partition)</strong>：在系统里看到的 C 盘、D 盘。</li>
+<li><strong>神技</strong>：如果你的电脑只有一个 C 盘，建议通过“磁盘管理”分出一个 D 盘专门放数据。这样重装系统时，D 盘的数据不会丢失。</li>
+</ul>
+<h2 id="2">2. 关键术语解析<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<h3 id="mbr-vs-gpt">分区表格式：MBR vs GPT<a class="headerlink" href="#mbr-vs-gpt" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>MBR (老旧)</strong>：支持最大 2TB 硬盘，最多 4 个主分区。</li>
+<li><strong>GPT (现代)</strong>：支持超大硬盘，几乎无限分区，配合 UEFI 启动速度快且更安全。2020 年后的电脑请务必使用 GPT。</li>
+</ul>
+<h3 id="ntfs-vs-exfat">文件系统：NTFS vs exFAT<a class="headerlink" href="#ntfs-vs-exfat" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>NTFS</strong>：Windows 的标配。支持权限控制、压缩、断电恢复。</li>
+<li><strong>exFAT</strong>：U 盘和移动硬盘的首选。在 Windows 和 Mac 之间通用性最强。</li>
+</ul>
+<h2 id="3">3. 分区建议 (最佳实践)<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>C 盘 (系统盘)</strong>：建议 150GB - 256GB 以上。随着软件更新，C 盘会膨胀。</li>
+<li><strong>D 盘 (软件/项目)</strong>：安装 VS Code、Python、游戏等大的软件。</li>
+<li><strong>E 盘 (备份/资料)</strong>：存放照片、视频和安装包镜像。</li>
+</ul>
+<hr />
+<h2 id="4-diskgenius">4. 推荐工具：DiskGenius<a class="headerlink" href="#4-diskgenius" title="Permanent link">&para;</a></h2>
+<p>如果系统自带的“磁盘管理”功能不够用，请使用国产神级软件 <strong>DiskGenius</strong>。它可以帮你：
+- 找回误删的分区。
+- 无损转换分区表格式 (MBR &lt;-&gt; GPT)。
+- 坏道检测。</p>
+<hr />
+<blockquote>
+<p><strong>警告</strong>：对分区进行“格式化”或“删除”操作会永久清除数据。在操作前，请务必确认你的数据已有备份！</p>
+</blockquote>
 
 
 
@@ -3186,7 +3254,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-06-08T10:07:44+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-06-08</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-04-09T18:56:34+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-04-09</span>
   </span>
 
     
@@ -3201,29 +3269,6 @@
 
     
     
-    
-      
-  <span class="md-source-file__fact">
-    
-      
-  <span class="md-icon" title="贡献者">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
-  </span>
-  <span>GitHub</span>
-
-    
-    <nav>
-      
-        <a href="https://github.com/ztm0929" class="md-author" title="@ztm0929">
-          
-          <img src="https://avatars.githubusercontent.com/u/34964951?v=4&amp;size=72" alt="ztm0929">
-        </a>
-      
-      
-      
-    </nav>
-  </span>
-
     
   </aside>
 
