@@ -2523,46 +2523,46 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
-      文件类型
+      1. 核心属性
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="文件类型">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 文件属性标记 (Attributes)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 文件扩展名：文件的“面具”
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 文件扩展名：文件的“面具”">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      扩展名
+      显示扩展名
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#100" class="md-nav__link">
+  <a href="#magic-number" class="md-nav__link">
     <span class="md-ellipsis">
-      扩展名与文件类型并不是 100% 对应的
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      文件类型识别的意义
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      不同操作系统的差异
+      核心真相：文件头 (Magic Number)
     </span>
   </a>
   
@@ -2570,15 +2570,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      参考
-    </span>
-  </a>
   
 </li>
       
@@ -3106,46 +3097,46 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
-      文件类型
+      1. 核心属性
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="文件类型">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 文件属性标记 (Attributes)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 文件扩展名：文件的“面具”
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 文件扩展名：文件的“面具”">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      扩展名
+      显示扩展名
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#100" class="md-nav__link">
+  <a href="#magic-number" class="md-nav__link">
     <span class="md-ellipsis">
-      扩展名与文件类型并不是 100% 对应的
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      文件类型识别的意义
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      不同操作系统的差异
+      核心真相：文件头 (Magic Number)
     </span>
   </a>
   
@@ -3153,15 +3144,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      参考
-    </span>
-  </a>
   
 </li>
       
@@ -3197,265 +3179,73 @@
   
 
 
-<h1 id="_1">文件的组成<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>以<code>C:\Windows\notepad.exe</code> 为例 文件应具有自己的属性，常见属性可以包括：</p>
+<h1 id="_1">文件的组成属性<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>理解文件的组成是操作系统的基础。每个文件不仅包含其内容，还包含一套描述其“身份”的属性。</p>
+<h2 id="1">1. 核心属性<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"></th>
-<th style="text-align: left;"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">文件名 : notepad</td>
-<td style="text-align: left;"><strong>文件名 (File Name)</strong>: <code>notepad</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">文件类型 : exe</td>
-<td style="text-align: left;"><strong>文件类型 (File Type)</strong>: 主要由扩展名表示，如 <code>exe</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">文件大小 : 196 KB</td>
-<td style="text-align: left;"><strong>文件大小 (File Size)</strong>: <code>196 KB</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">文件的路径 : C:\Windows\notepad.exe</td>
-<td style="text-align: left;"><strong>文件的路径 (File Path)</strong>: <code>C:\Windows\notepad.exe</code> (Windows 路径分隔符为 <code>\</code>，Linux/macOS 通常为 <code>/</code>)</td>
-</tr>
-<tr>
-<td style="text-align: left;">建立时间 : 2020 年 1 月 1 日 10:00:00</td>
-<td style="text-align: left;"><strong>创建时间 (Creation Time)</strong>: <code>2020年1月1日 10:00:00</code> (文件最初创建的时间)</td>
-</tr>
-<tr>
-<td style="text-align: left;">修改日期 : 最近一次修改文件的日期</td>
-<td style="text-align: left;"><strong>修改时间 (Modification Time)</strong>: 最近一次修改<strong>文件内容</strong>的日期</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>其他的有关文件附带的部分标签</p>
-<ul>
-<li><strong>访问时间 (Access Time)</strong>: 最近一次<strong>读取或打开</strong>文件的日期 (操作系统出于性能考虑更新可能不精确)</li>
-<li><strong>只读属性 (Read-only)</strong>: 标记文件是否只能读取，不能修改或删除（需要权限）</li>
-<li><strong>隐藏属性 (Hidden)</strong>: 标记文件是否在默认的文件管理器视图中隐藏</li>
-<li><strong>系统属性 (System)</strong>: 标记文件是否为操作系统关键文件（通常不建议用户修改）</li>
-<li><strong>归档属性 (Archive)</strong>: 主要用于备份软件，标记文件自上次备份后是否被修改过</li>
-<li><strong>所有者/权限 (Owner/Permissions)</strong>: (在支持多用户的系统如 Windows NTFS, Linux/Unix 中) 指定哪些用户或用户组可以读取、写入或执行该文件，对安全至关重要</li>
-<li><strong>数字签名 (Digital Signature)</strong>: (常见于可执行文件 <code>.exe</code>, <code>.dll</code> 或包含宏的文档) 用于验证文件来源的真实性和完整性，防止篡改，是重要的安全属性</li>
-</ul>
-</blockquote>
-<hr />
-<h2 id="_2">文件类型<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>一个文件是什么类型的文件主要可以通过文件的<strong>扩展名</strong>来表示 (但这并非绝对可靠)。</p>
-<h3 id="_3">扩展名<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
-<p>以 win10 为例我们可以勾选<code>查看 &gt; 文件扩展名</code>来显示文件的扩展名</p>
-<p><img alt="打开扩展名显示" src="../../img/chap3_file_attribute_extension.png" /></p>
-<p>值得注意是的扩展名的大小写并不影响文件的类型，所以<code>.TXT</code> 和 <code>.txt</code> 是等价的。</p>
-<p>常见的扩展名有：</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">扩展名</th>
+<th style="text-align: left;">属性</th>
 <th style="text-align: left;">说明</th>
-<th style="text-align: left;">主要识别依据/备注</th>
-<th style="text-align: left;">典型打开方式</th>
+<th style="text-align: left;">示例/备注</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><code>.txt</code></td>
-<td style="text-align: left;">无格式的文本文件</td>
-<td style="text-align: left;">纯文本内容</td>
-<td style="text-align: left;">记事本、VS Code、Sublime Text 等</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.html; .htm; .shtml; .xhtml</code></td>
-<td style="text-align: left;">超文本标记语言文件 (网页)</td>
-<td style="text-align: left;"><code>&lt;!DOCTYPE html&gt;</code> 等标签</td>
-<td style="text-align: left;">浏览器 (显示)、文本编辑器 (编辑)</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.doc; .docx</code></td>
-<td style="text-align: left;">Word 文档</td>
-<td style="text-align: left;"><code>.doc</code> (二进制格式), <code>.docx</code> (基于 ZIP + XML, 文件头 <code>PK</code>)</td>
-<td style="text-align: left;">Microsoft Word, WPS Office</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.ppt; .pptx</code></td>
-<td style="text-align: left;">PowerPoint 演示文稿</td>
-<td style="text-align: left;"><code>.ppt</code> (二进制格式), <code>.pptx</code> (基于 ZIP + XML, 文件头 <code>PK</code>)</td>
-<td style="text-align: left;">Microsoft PowerPoint, WPS Office</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.xls; .xlsx</code></td>
-<td style="text-align: left;">Excel 工作簿</td>
-<td style="text-align: left;"><code>.xls</code> (二进制格式), <code>.xlsx</code> (基于 ZIP + XML, 文件头 <code>PK</code>)</td>
-<td style="text-align: left;">Microsoft Excel, WPS Office</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.pdf</code></td>
-<td style="text-align: left;">便携式文档格式 (电子书)</td>
-<td style="text-align: left;">文件头 <code>%PDF-</code></td>
-<td style="text-align: left;">Adobe Acrobat Reader, Microsoft Edge, Foxit</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.bmp</code></td>
-<td style="text-align: left;">Windows 位图文件</td>
-<td style="text-align: left;">文件头 <code>BM</code></td>
-<td style="text-align: left;">画图、几乎所有图片查看器</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.jpg; .jpeg</code></td>
-<td style="text-align: left;">JPEG 有损图像格式</td>
-<td style="text-align: left;">文件头 <code>FF D8 FF</code></td>
-<td style="text-align: left;">几乎所有图片查看器</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.png</code></td>
-<td style="text-align: left;">PNG <strong>无损</strong>图像格式</td>
-<td style="text-align: left;">文件头 <code>‰PNG</code> (<code>89 50 4E 47 0D 0A 1A 0A</code> in hex)</td>
-<td style="text-align: left;">几乎所有图片查看器</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.gif</code></td>
-<td style="text-align: left;">图形交换格式 (支持动画)</td>
-<td style="text-align: left;">文件头 <code>GIF87a</code> 或 <code>GIF89a</code></td>
-<td style="text-align: left;">几乎所有图片查看器</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.ico</code></td>
-<td style="text-align: left;">Windows 图标文件</td>
+<td style="text-align: left;"><strong>文件名 (File Name)</strong></td>
+<td style="text-align: left;">文件的名称</td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">图片查看器、资源管理器</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>.psd</code></td>
-<td style="text-align: left;">Adobe Photoshop 源文件</td>
-<td style="text-align: left;">文件头 <code>8BPS</code></td>
-<td style="text-align: left;">Adobe Photoshop, ACDSee, XnView</td>
+<td style="text-align: left;">otepad</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>.exe</code></td>
-<td style="text-align: left;">Windows 可执行文件</td>
-<td style="text-align: left;">文件头 <code>MZ</code> (<code>4D 5A</code> in hex)</td>
-<td style="text-align: left;">双击运行 (警惕伪装!)</td>
+<td style="text-align: left;"><strong>文件类型 (File Type)</strong></td>
+<td style="text-align: left;">主要由扩展名表示</td>
+<td style="text-align: left;">.exe</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>.dll</code></td>
-<td style="text-align: left;">Windows 动态链接库</td>
-<td style="text-align: left;">文件头 <code>MZ</code> (<code>4D 5A</code> in hex)</td>
-<td style="text-align: left;">由程序调用</td>
+<td style="text-align: left;"><strong>文件大小 (File Size)</strong></td>
+<td style="text-align: left;">文件占用的空间量</td>
+<td style="text-align: left;">196 KB</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>.rar</code></td>
-<td style="text-align: left;">RAR 压缩文档</td>
-<td style="text-align: left;">文件头 <code>52 61 72 21</code> (<code>Rar!</code>)</td>
-<td style="text-align: left;">WinRAR, 7-Zip, Bandizip 等</td>
+<td style="text-align: left;"><strong>文件路径 (File Path)</strong></td>
+<td style="text-align: left;">文件的存储位置</td>
+<td style="text-align: left;">C:\Windows\notepad.exe</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>.zip</code></td>
-<td style="text-align: left;">ZIP 压缩文档</td>
-<td style="text-align: left;">文件头 <code>PK</code> (<code>50 4B 03 04</code> in hex)</td>
-<td style="text-align: left;">几乎所有解压缩软件</td>
+<td style="text-align: left;"><strong>创建时间 (Creation Time)</strong></td>
+<td style="text-align: left;">文件最初创建的时间</td>
+<td style="text-align: left;">2020年1月1日 10:00:00</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>.7z</code></td>
-<td style="text-align: left;">7-Zip 压缩文档</td>
-<td style="text-align: left;">文件头 <code>37 7A BC AF 27 1C</code> (<code>7z¼¯'</code>)</td>
-<td style="text-align: left;">7-Zip, Bandizip, PeaZip 等</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.mp3</code></td>
-<td style="text-align: left;">MPEG 音频层 III 文件</td>
-<td style="text-align: left;">文件头 <code>ID3</code> 标签 或 <code>FF FB</code>/<code>FF F3</code> (帧同步)</td>
-<td style="text-align: left;">几乎所有音频播放器</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.mp4</code></td>
-<td style="text-align: left;">MPEG-4 视频文件</td>
-<td style="text-align: left;">文件头 <code>....ftyp</code> (包含 <code>mp42</code>, <code>isom</code> 等)</td>
-<td style="text-align: left;">几乎所有视频播放器</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.py</code></td>
-<td style="text-align: left;">Python 脚本/源代码</td>
-<td style="text-align: left;">内容为 Python 代码，首行常为 <code>#!/usr/bin/env python3</code></td>
-<td style="text-align: left;">Python 解释器，VS Code, PyCharm 等</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.bat</code>, <code>.cmd</code></td>
-<td style="text-align: left;">Windows 批处理脚本</td>
-<td style="text-align: left;">内容为批处理命令</td>
-<td style="text-align: left;">Windows 命令处理器 (<code>cmd.exe</code>)</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.sh</code></td>
-<td style="text-align: left;">Unix/Linux Shell 脚本</td>
-<td style="text-align: left;">内容为 Shell 命令，首行常为 <code>#!/bin/bash</code>，<strong>需要可执行权限</strong></td>
-<td style="text-align: left;">Bash, Zsh 等 Shell (在终端执行)</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>.log</code></td>
-<td style="text-align: left;">日志文件</td>
-<td style="text-align: left;">通常为文本，包含时间戳和事件记录</td>
-<td style="text-align: left;">文本编辑器</td>
-</tr>
-<tr>
-<td style="text-align: left;">(无扩展名)</td>
-<td style="text-align: left;">多种可能 (可执行脚本、文本、数据)</td>
-<td style="text-align: left;">依赖文件内容 (文件头) 或上下文</td>
-<td style="text-align: left;">系统提示选择程序</td>
+<td style="text-align: left;"><strong>修改时间 (Modification Time)</strong></td>
+<td style="text-align: left;">最后一次修改“文件内容”的日期</td>
+<td style="text-align: left;"><strong>最重要的排障参考指标</strong></td>
 </tr>
 </tbody>
 </table>
+<h2 id="2-attributes">2. 文件属性标记 (Attributes)<a class="headerlink" href="#2-attributes" title="Permanent link">&para;</a></h2>
+<p>在 Windows 资源管理器中右键点击文件 -&gt; <strong>属性</strong>，可以快速设置：
+- <strong>只读 (Read-only)</strong>：防止文件被修改。
+- <strong>隐藏 (Hidden)</strong>：在默认视图中隐藏。
+- <strong>高级 -&gt; 内容索引</strong>：决定是否允许系统搜索文件内容。</p>
+<h2 id="3">3. 文件扩展名：文件的“面具”<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>扩展名（如 .txt, .jpg）告诉操作系统应该使用哪个应用程序来打开该文件。</p>
+<h3 id="_2">显示扩展名<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>在 Windows 10/11 的资源管理器顶部，勾选 <strong>“查看” -&gt; “文件扩展名”</strong>。作为计算机系学生，这是必须开启的设置，以防被类似 重要资料.pdf.exe 的程序欺骗。</p>
+<h3 id="magic-number">核心真相：文件头 (Magic Number)<a class="headerlink" href="#magic-number" title="Permanent link">&para;</a></h3>
+<p>扩展名只是表现，真正的类型嵌入在文件开头的几个字节中。
+- .exe 开头总是 MZ
+- .zip 开头总是 PK
+- .pdf 开头总是 %PDF-</p>
 <hr />
-<h3 id="100">扩展名与文件类型并不是 100% 对应的<a class="headerlink" href="#100" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>文件头/魔数 (Magic Number) 是关键：</strong> 文件开头的几个特定字节（称为“文件头”或“魔数”）是操作系统和应用程序识别文件<strong>真实类型</strong>的最主要依据。例如：<ul>
-<li><code>.exe</code> 和 <code>.dll</code> <del>文件通常以字节 <code>4D 5A</code> (对应字符 <code>MZ</code>) 开头。</del></li>
-<li><code>.pdf</code> <del>文件通常以 <code>%PDF-</code> 开头。</del></li>
-<li><code>.zip</code>, <code>.docx</code>, <code>.xlsx</code>, <code>.pptx</code> 文件本质是 ZIP 压缩包，<del>以 <code>50 4B 03 04</code> (<code>PK</code>) 开头。</del></li>
-<li><code>.png</code> <del>文件以 <code>89 50 4E 47 0D 0A 1A 0A</code> 开头 (对应字符 <code>.PNG....</code>)。</del></li>
-<li><code>.jpg</code> <del>文件通常以 <code>FF D8 FF</code> 开头。</del></li>
-</ul>
-</li>
-<li><strong>扩展名可以被随意修改：</strong> 你可以把一个 <code>.txt</code> 文件重命名为 <code>.exe</code> 或 <code>.jpg</code>。<strong>这不会改变文件的实际内容。</strong><ul>
-<li><strong>后果：</strong> 双击修改后的 <code>.exe</code> 文件（本质仍是文本）会导致错误（因为它不是有效的可执行程序）。用图片查看器打开修改后的 <code>.jpg</code> 文件（本质是文本）会显示乱码或错误。</li>
-<li><strong>安全风险：</strong> 这是恶意软件常用的伪装手段！例如，一个病毒程序（真实是 <code>.exe</code>）可能被伪装成 <code>document.pdf.exe</code>（并隐藏已知扩展名，显示为 <code>document.pdf</code>）或直接重命名为 <code>image.jpg</code> 诱骗用户点击。</li>
-</ul>
-</li>
-<li><strong>如何查看真实文件类型？</strong><ul>
-<li>使用十六进制编辑器查看文件头。</li>
-<li>在 Linux/macOS 终端或 Windows 的 Git Bash/WSL 中使用 <code>file</code> 命令（如 <code>file example.txt</code>）。</li>
-<li>使用专业的文件分析工具（如 TrID, FileAlyzer, DROID 等）。</li>
-</ul>
-</li>
-<li><strong>无扩展名文件：</strong> 文件可以没有扩展名。操作系统和应用程序主要依赖文件头（魔数）或文件权限来判断其类型和用途（例如，Linux 下没有扩展名但有可执行权限和正确文件头的脚本仍然可以执行）。在 Windows 上双击无扩展名文件，系统会提示用户选择打开程序。</li>
-</ul>
-<hr />
-<h3 id="_4">文件类型识别的意义<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<p>正确识别文件类型对于以下方面至关重要：</p>
-<ul>
-<li><strong>安全性：</strong> 避免打开恶意伪装的程序或文档。</li>
-<li><strong>功能正确性：</strong> 确保使用正确的应用程序打开文件，获得预期功能（如编辑、播放、运行）。</li>
-<li><strong>数据兼容性：</strong> 确保应用程序能正确解析文件内容，避免乱码或错误。</li>
-<li><strong>数据恢复：</strong> 在恢复损坏或删除的文件时，文件头签名是识别和重组数据的关键线索。</li>
-</ul>
-<hr />
-<h3 id="_5">不同操作系统的差异<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>Windows:</strong> 高度依赖文件扩展名来确定文件类型和关联程序（双击行为）。文件权限（NTFS）也起重要作用。</li>
-<li><strong>Linux/macOS (Unix-like):</strong> 扩展名更多是约定俗成。系统判断文件类型主要依赖：<ol>
-<li><strong>文件头 (Magic Number)：</strong> 使用 <code>file</code> 命令的核心依据。</li>
-<li><strong>文件权限：</strong> <code>ls -l</code> 查看，<code>x</code> (可执行) 位决定文件是否能作为程序运行。一个没有 <code>.sh</code> 扩展名但拥有可执行权限且以 <code>#!/bin/bash</code> 开头的文件，仍然是可执行的 Shell 脚本。</li>
-<li><strong>MIME 类型数据库：</strong> 图形界面文件管理器也会利用扩展名和文件头信息查询 MIME 类型数据库来确定文件类型和关联程序。</li>
-</ol>
-</li>
-</ul>
-<h2 id="_6">参考<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
-<p>电脑文件 : <a href="https://baike.baidu.com/item/%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6/21421152">https://baike.baidu.com/item/%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6/21421152</a></p>
-<p>文件格式列表 : <a href="https://zh.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E5%88%97%E8%A1%A8">https://zh.wikipedia.org/wiki/%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E5%88%97%E8%A1%A8</a></p>
+<blockquote>
+<p><strong>思考题</strong>：如果你把一个 .docx 文件重命名为 .zip 并打开，会发现什么？（提示：Office 文档本质上是一组压缩在一起的 XML 文件）。</p>
+</blockquote>
 
 
 
@@ -3478,7 +3268,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-07-06T14:38:27+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-07-06</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2026-04-09T18:52:47+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2026-04-09</span>
   </span>
 
     
