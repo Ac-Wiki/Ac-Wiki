@@ -78,7 +78,7 @@
 - [阿里云天工计划](https://university.aliyun.com/)：高校学生实名认证可领取**300 元无门槛**抵扣金;
 - [Azure](https://azure.microsoft.com/zh-cn/free/students/)：Microsoft 旗下的开发者云服务平台，对**教育订阅**提供`每12月$100的免费额度`，以及部分免费服务
     - [申请须知](https://www.bilibili.com/read/cv22794294/)
-- [GitHub Copilot](https://github.com/features/copilot/plans?cft=copilot_li.features_copilot)：结对编程助手，包含在 GitHub 学生开发者资源包中;
+- [GitHub Copilot](https://github.com/features/copilot/plans?cft=copilot_li.features_copilot)：结对编程助手，包含在 GitHub 学生开发者资源包中。[2026 年 4 月发布公告](https://gh.io/indiv-change-blog)，暂停新注册。
 - [GitHub Pro](https://docs.github.com/zh/get-started/learning-about-github/githubs-plans#github-pro)：代码协作平台，包含在 GitHub 学生开发者资源包中;
 - [Jetbrains](https://www.jetbrains.com/zh-cn/community/education/#students)：编程语言开发套件，用了都说好。打开界面后往下拉找到立刻申请按钮点击，之后按照网站需求填写信息即可（需要有学生邮箱）
 
