@@ -2514,12 +2514,12 @@
 
 <h1 id="_1">内存与硬盘：计算机的"工作台"与"储藏室"<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <h2 id="_2">核心区别图解<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>graph LR
+<p><code>mermaid
+graph LR
     A[内存 RAM] --&gt;|临时工作区| B[高速读写]
     C[硬盘 ROM] --&gt;|永久存储| D[长期保存]
     B --&gt; E[断电数据消失]
-    D --&gt; F[断电数据保留]
-</code></pre></div>
+    D --&gt; F[断电数据保留]</code></p>
 <h2 id="ram">内存（RAM）：计算机的"工作台"<a class="headerlink" href="#ram" title="Permanent link">&para;</a></h2>
 <p><img alt="内存条实物图" src="../../img/chap1_ram_img1.png" /></p>
 <blockquote>
@@ -2629,10 +2629,10 @@
 </li>
 <li>
 <p><strong>数据安全</strong>：</p>
-<div class="highlight"><pre><span></span><code>graph TB
+<p><code>mermaid
+graph TB
     删除操作 --&gt; 回收站 --&gt;|清空 | 文件索引移除
-    真正删除 --&gt; 数据覆盖 --&gt; 物理擦除
-</code></pre></div>
+    真正删除 --&gt; 数据覆盖 --&gt; 物理擦除</code></p>
 <ul>
 <li>SSD 数据删除后难以恢复（TRIM 指令立即擦除）</li>
 <li>HDD 删除文件后，在未被覆盖前可尝试恢复</li>
@@ -2647,14 +2647,14 @@
 </li>
 </ol>
 <h2 id="_7">内存与硬盘协同工作流程<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>sequenceDiagram
+<p><code>mermaid
+sequenceDiagram
     用户-&gt;&gt;+硬盘: 启动Photoshop
     硬盘-&gt;&gt;+内存: 加载程序文件(2GB)
     内存-&gt;&gt;+CPU: 提供处理数据
     CPU--&gt;&gt;-内存: 返回处理结果
     用户-&gt;&gt;+内存: 保存工作
-    内存-&gt;&gt;硬盘: 写入PSD文件
-</code></pre></div>
+    内存-&gt;&gt;硬盘: 写入PSD文件</code></p>
 <h2 id="_8">选购指南<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <h3 id="_9">内存选购要点<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
 <ol>
@@ -2702,8 +2702,8 @@
 <li>HDD 避免物理震动</li>
 <li>
 <p>定期备份重要数据（3-2-1 原则）：</p>
-<div class="highlight"><pre><span></span><code>3 份副本 - 2 种介质 - 1 份异地
-</code></pre></div>
+<p><code>markdown
+3 份副本 - 2 种介质 - 1 份异地</code></p>
 </li>
 </ul>
 <h2 id="_14">技术演进趋势<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>

@@ -2719,22 +2719,22 @@
 </li>
 <li>
 <p><strong>自定义脚本</strong>：</p>
-<div class="highlight"><pre><span></span><code><span class="c1">// ==UserScript==</span>
-<span class="c1">// @name         My Custom Script</span>
-<span class="c1">// @namespace    http://tampermonkey.net/</span>
-<span class="c1">// @version      0.1</span>
-<span class="c1">// @description  自定义示例脚本</span>
-<span class="c1">// @author       You</span>
-<span class="c1">// @match        *://*.example.com/*</span>
-<span class="c1">// @grant        none</span>
-<span class="c1">// ==/UserScript==</span>
-
-<span class="p">(</span><span class="kd">function</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="s2">&quot;use strict&quot;</span><span class="p">;</span>
-<span class="w">    </span><span class="c1">// 在此添加你的代码</span>
-<span class="w">    </span><span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">backgroundColor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;#f0f0f0&quot;</span><span class="p">;</span>
-<span class="p">})();</span>
-</code></pre></div>
+<p>```javascript
+// <mark>UserScript</mark>
+// @name         My Custom Script
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  自定义示例脚本
+// @author       You
+// @match        <em>://</em>.example.com/*
+// @grant        none
+// <mark>/UserScript</mark></p>
+<p>(function () {
+    "use strict";
+    // 在此添加你的代码
+    document.body.style.backgroundColor = "#f0f0f0";
+})();
+```</p>
 </li>
 <li>
 <p><strong>脚本自动更新</strong>：</p>
