@@ -36,7 +36,7 @@ pytz==2024.2
 PyYAML==6.0.2
 pyyaml_env_tag==1.1
 regex==2024.9.11
-requests==2.32.4
+requests==2.33.0
 six==1.17.0
 smmap==5.0.1
 tzdata==2024.2
