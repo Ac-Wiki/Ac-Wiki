@@ -2518,15 +2518,15 @@
 <p>Linux 发行版根据包管理器有不同的卸载指令：</p>
 <h3 id="debian">Debian 系发行版<a class="headerlink" href="#debian" title="Permanent link">&para;</a></h3>
 <p>例如：Ubuntu</p>
-<p><code>bash
-sudo apt remove &lt;package_name&gt;      # 移除软件包但保留配置文件
-sudo apt purge &lt;package_name&gt;       # 完全移除软件包和配置文件
-sudo apt autoremove                 # 移除不再需要的依赖包</code></p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>remove<span class="w"> </span>&lt;package_name&gt;<span class="w">      </span><span class="c1"># 移除软件包但保留配置文件</span>
+sudo<span class="w"> </span>apt<span class="w"> </span>purge<span class="w"> </span>&lt;package_name&gt;<span class="w">       </span><span class="c1"># 完全移除软件包和配置文件</span>
+sudo<span class="w"> </span>apt<span class="w"> </span>autoremove<span class="w">                 </span><span class="c1"># 移除不再需要的依赖包</span>
+</code></pre></div>
 <h3 id="archlinux">ArchLinux 系发行版<a class="headerlink" href="#archlinux" title="Permanent link">&para;</a></h3>
 <p>例如：Manjaro</p>
-<p><code>bash
-sudo pacman -R &lt;package_name&gt;       # 移除软件包
-sudo pacman -Rns &lt;package_name&gt;     # 完全移除软件包及其依赖</code></p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>pacman<span class="w"> </span>-R<span class="w"> </span>&lt;package_name&gt;<span class="w">       </span><span class="c1"># 移除软件包</span>
+sudo<span class="w"> </span>pacman<span class="w"> </span>-Rns<span class="w"> </span>&lt;package_name&gt;<span class="w">     </span><span class="c1"># 完全移除软件包及其依赖</span>
+</code></pre></div>
 <h3 id="_4">通用方法<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <ul>
 <li>使用<code>which &lt;command&gt;</code>查找软件安装位置</li>
