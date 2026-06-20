@@ -9,3 +9,216 @@
 .md-typeset a.md-author img {
     filter: grayscale(0%) opacity(100%);
 }
+
+/* ============================================================
+   Ac-Wiki Custom Layout Styles
+   ============================================================ */
+
+/* --- Hero Section (Homepage) --- */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    margin-bottom: 2rem;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 1.5rem;
+}
+.hero .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hero .hero-buttons .md-button {
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hero .hero-buttons .md-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.hero .hero-buttons .md-button--primary {
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+}
+
+/* --- Grid Cards Enhancement --- */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > ul > li {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid > ul > li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-color: var(--md-primary-fg-color);
+}
+
+/* --- Admonition Enhancements --- */
+.md-typeset .admonition,
+.md-typeset details {
+    border-radius: 10px;
+    border-left-width: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+.md-typeset .admonition > .admonition-title,
+.md-typeset details > summary {
+    border-radius: 10px 10px 0 0;
+    font-weight: 600;
+}
+.md-typeset .admonition > .admonition-title::before,
+.md-typeset details > summary::before {
+    font-size: 1.1em;
+}
+
+/* --- Related Links Sidebar --- */
+.related-links {
+    background: var(--md-code-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+}
+.related-links p {
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
+    color: var(--md-primary-fg-color);
+}
+.related-links ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+.related-links li {
+    margin-bottom: 0.3rem;
+}
+.related-links a {
+    color: var(--md-default-fg-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.related-links a:hover {
+    color: var(--md-primary-fg-color);
+}
+
+/* --- Section Header Decoration --- */
+.md-typeset h1 {
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+.md-typeset h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #42a5f5, #ab47bc);
+    border-radius: 2px;
+}
+
+/* --- Feature Cards (Homepage) --- */
+.feature-cards .md-typeset .grid > ul > li {
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+.feature-cards .md-typeset .grid > ul > li > .twemoji {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* --- Sitemap Section --- */
+.md-typeset h3 {
+    font-size: 1.3rem;
+    margin-top: 1.8rem;
+    margin-bottom: 0.3rem;
+}
+.md-typeset h3 + em {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 0.6rem;
+    font-style: italic;
+}
+.md-typeset h3 + em + a,
+.md-typeset h3 + em ~ a {
+    font-size: 1.05rem;
+    line-height: 2;
+}
+
+/* --- Right TOC Enlargement --- */
+.md-sidebar--secondary .md-nav__link {
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+.md-sidebar--secondary .md-nav__item {
+    margin-bottom: 0.1rem;
+}
+
+/* --- Footer Enhancements --- */
+.md-footer {
+    text-align: center;
+}
+.md-footer__inner {
+    max-width: 100%;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.md-footer-meta__inner.md-grid {
+    display: block !important;
+    grid-template-columns: unset !important;
+    max-width: 100% !important;
+    text-align: center !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.md-footer__copyright {
+    text-align: center !important;
+    width: 100%;
+}
+.md-copyright {
+    text-align: center !important;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+.page-stats {
+    margin: 0.5em 0;
+    font-size: 0.75em;
+    color: var(--md-footer-fg-color--light);
+}
+
+/* --- Hide left sidebar on desktop, use top nav instead --- */
+@media screen and (min-width: 76.1875em) {
+    .md-sidebar--primary {
+        display: none !important;
+    }
+    .md-content {
+        max-width: 100%;
+    }
+}
+
+/* --- Responsive Adjustments --- */
+@media screen and (max-width: 76.1875em) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
