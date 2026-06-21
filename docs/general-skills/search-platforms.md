@@ -1,7 +1,4 @@
-!!! abstract "📌 相关推荐"
-    - [工具推荐](tools.md)
-    - [计算机基础](computer-basic/SurfingTutorial.md)
-    - [学术研究与写作](../academic-resources/academic-research-and-academic-writing.md)
+!!! abstract "📌 相关推荐" - [工具推荐](tools.md) - [计算机基础](computer-basic/SurfingTutorial.md) - [学术研究与写作](../academic-resources/academic-research-and-academic-writing.md)
 
 ???+ info "搜索引擎"
 

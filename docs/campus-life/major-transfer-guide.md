@@ -1,7 +1,4 @@
-!!! abstract "📌 相关推荐"
-    - [课程与学分](different-courses.md)
-    - [辅修/第二学位](minor-or-dual-degree.md)
-    - [开学第0课](first-lesson-of-school.md)
+!!! abstract "📌 相关推荐" - [课程与学分](different-courses.md) - [辅修/第二学位](minor-or-dual-degree.md) - [开学第 0 课](first-lesson-of-school.md)
 
 # 转专业
 

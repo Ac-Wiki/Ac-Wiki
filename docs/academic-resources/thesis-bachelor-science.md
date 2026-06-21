@@ -1,7 +1,4 @@
-!!! abstract "📌 相关推荐"
-    - [学术研究与写作](academic-research-and-academic-writing.md)
-    - [关键概念](some-key-concepts.md)
-    - [网络资源获取](how-to-get-resources.md)
+!!! abstract "📌 相关推荐" - [学术研究与写作](academic-research-and-academic-writing.md) - [关键概念](some-key-concepts.md) - [网络资源获取](how-to-get-resources.md)
 
 ## 毕业论文及其工作
 

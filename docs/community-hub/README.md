@@ -6,7 +6,7 @@ Ac-Wiki 是一个由志愿者驱动的公益项目。每一份贡献都弥足珍
 
 - :material-account-group:{ .lg .middle } **关于我们**
 
-    ---
+    ***
 
     了解 Ac-Wiki 项目
 
@@ -14,7 +14,7 @@ Ac-Wiki 是一个由志愿者驱动的公益项目。每一份贡献都弥足珍
 
 - :material-pencil:{ .lg .middle } **贡献指南**
 
-    ---
+    ***
 
     如何参与贡献
 
@@ -22,7 +22,7 @@ Ac-Wiki 是一个由志愿者驱动的公益项目。每一份贡献都弥足珍
 
 - :material-email:{ .lg .middle } **联系我们**
 
-    ---
+    ***
 
     加入社区交流
 

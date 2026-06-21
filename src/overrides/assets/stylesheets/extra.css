@@ -40,7 +40,9 @@
     border-radius: 8px;
     padding: 0.6rem 1.5rem;
     font-weight: 600;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 .hero .hero-buttons .md-button:hover {
     transform: translateY(-1px);
@@ -56,7 +58,9 @@
 .md-typeset .grid > ul > li {
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
     border: 1px solid var(--md-default-fg-color--lightest);
 }
 .md-typeset .grid.cards > ul > li:hover,
@@ -119,7 +123,7 @@
     padding-bottom: 0.5rem;
 }
 .md-typeset h1::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;

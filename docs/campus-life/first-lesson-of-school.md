@@ -1,8 +1,4 @@
-!!! abstract "📌 相关推荐"
-    - [课程与学分](different-courses.md)
-    - [转专业须知](major-transfer-guide.md)
-    - [学生邮箱](student-email.md)
-    - [学生优惠](../general-skills/student-discounts.md)
+!!! abstract "📌 相关推荐" - [课程与学分](different-courses.md) - [转专业须知](major-transfer-guide.md) - [学生邮箱](student-email.md) - [学生优惠](../general-skills/student-discounts.md)
 
 # 开学第 0 课
 

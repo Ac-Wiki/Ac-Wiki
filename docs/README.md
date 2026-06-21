@@ -76,22 +76,22 @@
 
 ### 🌟 生活经验
 
-| 类别 | 内容 |
-|------|------|
-| **学生优惠** | [学生优惠指南](./general-skills/student-discounts.md) · 编程 / 开发 / 新质生产力 |
-| **圆梦帮扶** | [奖/助学金申请](./campus-life/scholarship.md) · [勤工俭学](./campus-life/work-study-program.md) · [国家助学贷款](./campus-life/faq-national-student-loan.md) · 大学生创业扶持 |
+| 类别         | 内容                                                                                                                                                                                                                                                                                                                                                       |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **学生优惠** | [学生优惠指南](./general-skills/student-discounts.md) · 编程 / 开发 / 新质生产力                                                                                                                                                                                                                                                                           |
+| **圆梦帮扶** | [奖/助学金申请](./campus-life/scholarship.md) · [勤工俭学](./campus-life/work-study-program.md) · [国家助学贷款](./campus-life/faq-national-student-loan.md) · 大学生创业扶持                                                                                                                                                                              |
 | **校园生活** | [开学第 0 课](./campus-life/first-lesson-of-school.md) · [课程与学分](./campus-life/different-courses.md) · [签到考勤](./campus-life/class-attendance.md) · [转专业须知](./campus-life/major-transfer-guide.md) · [辅修/第二学位](./campus-life/minor-or-dual-degree.md) · [学生邮箱](./campus-life/student-email.md) · [图书馆](./campus-life/library.md) |
-| **人际关系** | [化解矛盾](./campus-life/resolving-conflicts.md) · [社交关系](./campus-life/social-connections.md) · [脱单技巧](./campus-life/getting-out-of-singleness.md) |
-| **社会生活** | [医保指南](./campus-life/medical-insurance.md) · [国际交流](./campus-life/international-exchange.md) · [高铁/飞机出行](./general-skills/railway-airplane-travel-guide.md) |
+| **人际关系** | [化解矛盾](./campus-life/resolving-conflicts.md) · [社交关系](./campus-life/social-connections.md) · [脱单技巧](./campus-life/getting-out-of-singleness.md)                                                                                                                                                                                                |
+| **社会生活** | [医保指南](./campus-life/medical-insurance.md) · [国际交流](./campus-life/international-exchange.md) · [高铁/飞机出行](./general-skills/railway-airplane-travel-guide.md)                                                                                                                                                                                  |
 
 ### 🔬 学术技能
 
-| 类别 | 内容 |
-|------|------|
-| **方法论** | [信息检索/获取资源](./general-skills/search-platforms.md) · [计算机基础技能](./general-skills/computer-basic/SurfingTutorial.md) · 第一篇论文（学术规范、论文写作、查重降重 …） |
-| **工具平台** | [效率优化工具](./general-skills/tools.md) |
-| **网络安全** | [密码管理](./general-skills/password_manage.md) · [隐私保护](./general-skills/cyber%20security/privacy.md) |
-| **校园应用** | [风驰电掣 — 校园跑](./general-skills/qi-ji-yin-qiao/campus-running.md) · [珍惜时间 — 刷课技巧](./general-skills/qi-ji-yin-qiao/pointless-courses.md) |
+| 类别         | 内容                                                                                                                                                                                                                                 |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **方法论**   | [信息检索/获取资源](./general-skills/search-platforms.md) · [计算机基础技能](./general-skills/computer-basic/SurfingTutorial.md) · 第一篇论文（学术规范、论文写作、查重降重 …）                                                      |
+| **工具平台** | [效率优化工具](./general-skills/tools.md)                                                                                                                                                                                            |
+| **网络安全** | [密码管理](./general-skills/password_manage.md) · [隐私保护](./general-skills/cyber%20security/privacy.md)                                                                                                                           |
+| **校园应用** | [风驰电掣 — 校园跑](./general-skills/qi-ji-yin-qiao/campus-running.md) · [珍惜时间 — 刷课技巧](./general-skills/qi-ji-yin-qiao/pointless-courses.md)                                                                                 |
 | **考赛介绍** | [专业技能认证](./general-skills/study/certification.md) · [考试和竞赛](./general-skills/study/study.md) · [研招信息](./general-skills/study/yanzhao.md) · [生化/环材专业指南](./general-skills/study/biochem-env-materials-guide.md) |
 
 ### 📘 学术资源

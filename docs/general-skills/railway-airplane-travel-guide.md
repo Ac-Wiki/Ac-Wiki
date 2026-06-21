@@ -68,5 +68,5 @@
 
 ## 参考链接
 
-- [中国铁路12306学生优惠票购买指南](https://kyfw.12306.cn/otn/gonggao/student.html)
-- [2025学年学生优惠资质核验指南](https://news.cnr.cn/native/gd/kx/20241002/t20241002_526927014.shtml)
+- [中国铁路 12306 学生优惠票购买指南](https://kyfw.12306.cn/otn/gonggao/student.html)
+- [2025 学年学生优惠资质核验指南](https://news.cnr.cn/native/gd/kx/20241002/t20241002_526927014.shtml)

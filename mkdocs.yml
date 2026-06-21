@@ -1,5 +1,5 @@
 exclude_docs: |
-  superpowers/
+    superpowers/
 nav:
     - 首页: README.md
     - 入学前:
@@ -219,7 +219,7 @@ plugins:
           zoomable: true
           draggable: true
           skip_classes:
-            - skip-lightbox
+              - skip-lightbox
           auto_caption: false
           caption_position: bottom
           background: none

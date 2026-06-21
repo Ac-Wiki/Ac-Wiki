@@ -1,7 +1,4 @@
-!!! abstract "📌 相关推荐"
-    - [银行账户与信用卡](bank-accounts-and-credit-cards.md)
-    - [工具推荐](tools.md)
-    - [搜索引擎](search-platforms.md)
+!!! abstract "📌 相关推荐" - [银行账户与信用卡](bank-accounts-and-credit-cards.md) - [工具推荐](tools.md) - [搜索引擎](search-platforms.md)
 
 ???+ info "教育优惠"
 
@@ -38,7 +35,7 @@
 
 - [高德打车](https://zhuanlan.zhihu.com/p/646927405)：这里挂知乎已经整理好的文章；
 
-- [铁路 12306](https://kyfw.12306.cn/otn/gonggao/student.html)：学生票价优惠执行票价 75 折（相当于公布票价 4-6 折），普通火车 5 折，每学年 4 次（2026年春运期间额外增加 2 次），优惠范围已扩展至二等座、一等座和卧铺，不再限于寒暑假使用，仅限申报的 `家庭-学校` 往返路线，具体详见官方文件；
+- [铁路 12306](https://kyfw.12306.cn/otn/gonggao/student.html)：学生票价优惠执行票价 75 折（相当于公布票价 4-6 折），普通火车 5 折，每学年 4 次（2026 年春运期间额外增加 2 次），优惠范围已扩展至二等座、一等座和卧铺，不再限于寒暑假使用，仅限申报的 `家庭-学校` 往返路线，具体详见官方文件；
 
 - [华住会](https://www.hworld.com/)：全国 8.8 折；周日/周一学校周边酒店 75 折；跨城旅游连住两晚 75 折，具体操作详见华住会公众号[推文](https://mp.weixin.qq.com/s/YftM7f7WR2JQQPxx5godwg)，点击领取后进行学生认证，填写学校即可；
 

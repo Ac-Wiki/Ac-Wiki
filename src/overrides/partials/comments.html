@@ -1,42 +1,51 @@
 <div id="giscus-container"></div>
 <script>
-(function() {
-    function getTheme() {
-        return document.body.getAttribute("data-md-color-scheme") === "slate" ? "dark" : "light";
-    }
-    function createGiscus() {
-        var c = document.getElementById("giscus-container");
-        if (!c) return;
-        var s = document.createElement("script");
-        s.src = "https://giscus.app/client.js";
-        s.setAttribute("data-repo", "Ac-Wiki/Ac-Wiki");
-        s.setAttribute("data-repo-id", "R_kgDONCnJnA");
-        s.setAttribute("data-category", "Announcements");
-        s.setAttribute("data-category-id", "DIC_kwDONCnJnM4Cjk4S");
-        s.setAttribute("data-mapping", "title");
-        s.setAttribute("data-strict", "0");
-        s.setAttribute("data-reactions-enabled", "1");
-        s.setAttribute("data-emit-metadata", "1");
-        s.setAttribute("data-input-position", "top");
-        s.setAttribute("data-theme", getTheme());
-        s.setAttribute("data-lang", "zh-CN");
-        s.setAttribute("data-loading", "lazy");
-        s.crossOrigin = "anonymous";
-        s.async = true;
-        c.appendChild(s);
-    }
-    function postTheme() {
-        var f = document.querySelector("iframe.giscus-frame");
-        if (!f) return;
-        f.contentWindow.postMessage({giscus:{setConfig:{theme:getTheme()}}}, "https://giscus.app");
-    }
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", createGiscus);
-    } else {
-        createGiscus();
-    }
-    new MutationObserver(function() {
-        setTimeout(postTheme, 500);
-    }).observe(document.body, {attributes:true, attributeFilter:["data-md-color-scheme"]});
-})();
+    (function () {
+        function getTheme() {
+            return document.body.getAttribute("data-md-color-scheme") ===
+                "slate"
+                ? "dark"
+                : "light";
+        }
+        function createGiscus() {
+            var c = document.getElementById("giscus-container");
+            if (!c) return;
+            var s = document.createElement("script");
+            s.src = "https://giscus.app/client.js";
+            s.setAttribute("data-repo", "Ac-Wiki/Ac-Wiki");
+            s.setAttribute("data-repo-id", "R_kgDONCnJnA");
+            s.setAttribute("data-category", "Announcements");
+            s.setAttribute("data-category-id", "DIC_kwDONCnJnM4Cjk4S");
+            s.setAttribute("data-mapping", "title");
+            s.setAttribute("data-strict", "0");
+            s.setAttribute("data-reactions-enabled", "1");
+            s.setAttribute("data-emit-metadata", "1");
+            s.setAttribute("data-input-position", "top");
+            s.setAttribute("data-theme", getTheme());
+            s.setAttribute("data-lang", "zh-CN");
+            s.setAttribute("data-loading", "lazy");
+            s.crossOrigin = "anonymous";
+            s.async = true;
+            c.appendChild(s);
+        }
+        function postTheme() {
+            var f = document.querySelector("iframe.giscus-frame");
+            if (!f) return;
+            f.contentWindow.postMessage(
+                { giscus: { setConfig: { theme: getTheme() } } },
+                "https://giscus.app",
+            );
+        }
+        if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", createGiscus);
+        } else {
+            createGiscus();
+        }
+        new MutationObserver(function () {
+            setTimeout(postTheme, 500);
+        }).observe(document.body, {
+            attributes: true,
+            attributeFilter: ["data-md-color-scheme"],
+        });
+    })();
 </script>

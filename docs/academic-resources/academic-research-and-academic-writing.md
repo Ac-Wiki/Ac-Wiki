@@ -1,7 +1,4 @@
-!!! abstract "📌 相关推荐"
-    - [关键概念](some-key-concepts.md)
-    - [毕业论文（理学）](thesis-bachelor-science.md)
-    - [搜索引擎](../general-skills/search-platforms.md)
+!!! abstract "📌 相关推荐" - [关键概念](some-key-concepts.md) - [毕业论文（理学）](thesis-bachelor-science.md) - [搜索引擎](../general-skills/search-platforms.md)
 
 学术研究，其核心在于通过系统而严谨的方法，探索未知、验证假设、构建新的知识体系。它的根本目的在于解决问题、增进人类理解，并推动社会整体的进步。与日常的探究不同，学术研究强调其系统性、严谨性与可验证性，所有结论都必须有充分的证据支持，且能被同行重复验证，同时，它必须对现有的知识体系有所贡献。
 

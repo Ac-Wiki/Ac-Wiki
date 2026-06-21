@@ -1,6 +1,4 @@
-!!! abstract "📌 相关推荐"
-    - [隐私保护](cyber%20security/privacy.md)
-    - [银行账户与信用卡](bank-accounts-and-credit-cards.md)
+!!! abstract "📌 相关推荐" - [隐私保护](cyber%20security/privacy.md) - [银行账户与信用卡](bank-accounts-and-credit-cards.md)
 
 # 密码管理软件
 
