@@ -8,7 +8,7 @@
 
     计算机技术学习札记
 
-    <img src="https://static.criwits.top/images/misc/missing_logo.svg" width="80" />
+      <img src="https://static.criwits.top/images/misc/missing_logo.svg" width="80" />
 
 - :material-link:{ .lg .middle } [**西邮 Wiki - XUPT Wiki**](https://wiki.cooo.site)
 
@@ -16,7 +16,7 @@
 
     西安邮电大学非官方校园生活指南
 
-    <img src="https://wiki.cooo.site/logo.svg" width="80" />
+      <img src="https://wiki.cooo.site/logo.svg" width="80" />
 
 - :material-link:{ .lg .middle } [**大学生活质量指北**](https://colleges.chat/)
 
@@ -24,7 +24,7 @@
 
     基于问卷数据的中国高校生活质量信息平台
 
-    <img src="https://colleges.chat/assets/images/favicon.webp" width="80" />
+      <img src="https://colleges.chat/assets/images/favicon.webp" width="80" />
 
 - :material-link:{ .lg .middle } [**山东第二医科大学指南 SDSMU-Companion**](https://sdsmu-companion.netlify.app)
 
@@ -32,7 +32,7 @@
 
     方便在校学生与新生的日常生活
 
-    <img src="https://sdsmu-companion.netlify.app/favicon.svg" width="80" />
+      <img src="https://sdsmu-companion.netlify.app/favicon.svg" width="80" />
 
 </div>
 
