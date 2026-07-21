@@ -10,6 +10,7 @@ __pycache__/
 .Python
 .claude
 .vscode
+.vs
 
 build/
 develop-eggs/
