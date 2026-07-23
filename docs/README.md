@@ -206,12 +206,12 @@ Ac-Wiki 是一个由志愿者驱动的公益项目。每一份贡献——无论
 </div>
 
 <div align="center">
-  <a href="https://star-history.com/#Ac-Wiki/Ac-Wiki&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Ac-Wiki/Ac-Wiki&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Ac-Wiki/Ac-Wiki&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Ac-Wiki/Ac-Wiki&type=Date" width="100%" />
-    </picture>
+  <a href="https://www.star-history.com/?repos=Ac-Wiki%2FAc-Wiki&type=date&legend=top-left">
+   <picture>
+     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Ac-Wiki/Ac-Wiki&type=date&theme=dark&legend=top-left&sealed_token=qfWD3tmFlJj2eg1j5DgPHcXl-TnhrSHKg4oxN3yhcnp43APM0ZdRSifDZRLmN0VpvbUJiVqrjSSxycR12kBjySF9sJ-TPOyL3_-Dv1HqhwySjRpaU1TSgQ" />
+     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Ac-Wiki/Ac-Wiki&type=date&legend=top-left&sealed_token=qfWD3tmFlJj2eg1j5DgPHcXl-TnhrSHKg4oxN3yhcnp43APM0ZdRSifDZRLmN0VpvbUJiVqrjSSxycR12kBjySF9sJ-TPOyL3_-Dv1HqhwySjRpaU1TSgQ" />
+     <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Ac-Wiki/Ac-Wiki&type=date&legend=top-left&sealed_token=qfWD3tmFlJj2eg1j5DgPHcXl-TnhrSHKg4oxN3yhcnp43APM0ZdRSifDZRLmN0VpvbUJiVqrjSSxycR12kBjySF9sJ-TPOyL3_-Dv1HqhwySjRpaU1TSgQ" />
+   </picture>
   </a>
 </div>
 
