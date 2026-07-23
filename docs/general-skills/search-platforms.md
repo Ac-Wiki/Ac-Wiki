@@ -1,6 +1,6 @@
-﻿# abstract "📌 相关推荐" - [工具推荐](tools.md) - [计算机基础](computer-basic/SurfingTutorial.md) - [学术研究与写作](../academic-resources/academic-research-and-academic-writing.md)
+!!! abstract "📌 相关推荐" - [工具推荐](tools.md) - [计算机基础](computer-basic/SurfingTutorial.md) - [学术研究与写作](../academic-resources/academic-research-and-academic-writing.md)
 
-# info "搜索引擎"
+???+ info "搜索引擎"
 
     搜索平台，是获取信息的一个重要入口，这里对常用的信息搜索平台做一个简单的收集汇总。以方便梳理出一个搜集有效信息资料，对学习、生活社会热点等媒体热点信息的判断体系。预计包含：信息搜索，信息存储，信息使用及判断 三个部分。本篇主要关注信息搜索部分。
 
@@ -47,7 +47,7 @@ Android 系统上的浏览器部分携带该功能
 
 - 最好的**英文**搜索；广告较少，外国信息丰富，不建议使用中文搜索谷歌
 
-> tip: "谷歌常用搜索语法"
+??? tip "谷歌常用搜索语法"
 
     使用 Google 搜索引擎的时候，可以使用一些
 
@@ -61,7 +61,7 @@ Android 系统上的浏览器部分携带该功能
 
     新手推荐插件：<https://github.com/penn201500/GoogleAdvSearchHint>
 
-> tip: "如何快速阅读英文资料"
+??? tip "如何快速阅读英文资料"
 
     - 推荐使用 edge 浏览器自带的翻译
     - 或使用[沉浸式翻译](https://immersivetranslate.com/)，([Github 页面](https://github.com/immersive-translate/));[划词翻译](https://hcfy.ai/)
@@ -75,7 +75,7 @@ Android 系统上的浏览器部分携带该功能
 
 ## AI 搜索引擎
 
-> tip: "谨慎对待人工智能搜索的信息"
+???+ tip "谨慎对待人工智能搜索的信息"
 
     人工智能哪怕启用了搜索，“幻觉”问题仍然比较严重，因此，将这些数据引用在论文等地方前，请进一步验证
 
@@ -135,7 +135,7 @@ AI 驱动的搜索引擎，会先从多个搜索引擎检索信息，然后使�
 - [鸠摩读书](https://www.jiumodiary.com/)
 - [Z-lib](https://go-to-library.sk/)
 
-> warning:
+???+ warning
 
     - 由于网站性质，Z-lib 的官网时常被屏蔽，此处的站点公布的地址可以访问到官方站点，同时可以查看[维基百科](https://en.m.wikipedia.org/wiki/Z-Library)或者其[ Telegram 群组](https://t.me/true_booklovers)查看最新官方网站。谨防虚假网站！
 
@@ -187,14 +187,14 @@ AI 驱动的搜索引擎，会先从多个搜索引擎检索信息，然后使�
 
 - [知乎](https://www.zhihu.com/) 对某个方向的问题毫无头绪时，在这里查找相关帖子扫盲和建立初步认识（部分热门科研领域文章较多），但是现在软文鱼龙混杂，需仔细鉴别
 - [Reddit](https://www.reddit.com/) 相当于海外的贴吧，搜索英文资料/问题可以尝试在检索时加入`reddit`，质量较高
-> 小红书（App）攻略、教程类现在基本小红书比较齐全，时效性比较强。但是软推广内容较多，需谨慎辨别
+- 小红书（App）攻略、教程类现在基本小红书比较齐全，时效性比较强。但是软推广内容较多，需谨慎辨别
 
 ### 公司信息（对找工作的同学有用）
 
 - [天眼查](https://www.tianyancha.com/)
 - [风鸟](https://www.riskbird.com/)
 
-> tips: "查询公司信息的一般步骤"
+??? tip "查询公司信息的一般步骤"
 
     - what, who, when, where, why, how, how much
 
@@ -273,7 +273,7 @@ AI 驱动的搜索引擎，会先从多个搜索引擎检索信息，然后使�
 - [SpringerLink](https://link.springer.com/) - 科学、技术、医学期刊
 - [ScienceDirect](https://www.sciencedirect.com/) - 爱思唯尔期刊数据库
 
-> tips: "如何解决知网、万方高昂的“会员费” "
+??? tip "如何解决知网、万方高昂的“会员费” "
 
     一般情况下很多图书馆会购买相关的数据库，你可以先打开你们学校图书馆的网址（或者去询问图书馆或信息化中心的教职工）学校是否购买了相关的数据库文献
 
