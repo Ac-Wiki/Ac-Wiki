@@ -226,3 +226,49 @@
         font-size: 1rem;
     }
 }
+
+/* ============================================================
+   Reading Experience Refinements (contributed 2026-08)
+   目标：优化中文长文可读性，风格与现有设计保持一致
+   ============================================================ */
+
+/* 正文段落首行缩进两个字符（中文排版规范） */
+.md-typeset p {
+    text-indent: 2em;
+    line-height: 1.85;
+}
+
+/* 列表、引用、提示框、表格内的段落不缩进，保持各自语义 */
+.md-typeset li p,
+.md-typeset blockquote p,
+.md-typeset .admonition p,
+.md-typeset details p,
+.md-typeset table p,
+.md-typeset .hero p,
+.md-typeset .related-links p {
+    text-indent: 0;
+}
+
+/* 代码块：圆角 + 细边框 + 内边距，观感更精致 */
+.md-typeset pre {
+    border-radius: 10px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    padding: 1rem 1.2rem;
+}
+
+/* 行内代码在中文语境下增加左右间距，避免拥挤 */
+.md-typeset :not(pre) > code {
+    margin: 0 0.15em;
+    padding: 0.1em 0.4em;
+}
+
+/* 表格表头更清晰，与正文层次分明 */
+.md-typeset table:not([class]) th {
+    background: var(--md-code-bg-color);
+    font-weight: 600;
+}
+
+/* 链接 hover 平滑过渡，提升交互质感 */
+.md-typeset a {
+    transition: color 0.2s ease;
+}
