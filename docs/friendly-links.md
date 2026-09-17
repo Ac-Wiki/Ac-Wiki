@@ -34,6 +34,12 @@
 
     <img src="https://sdsmu-companion.netlify.app/favicon.svg" width="80" />
 
+- :material-link:{ .lg .middle } [**学子备战墙**](https://www.xzbzq.com)
+
+    ***
+
+    初高中学习资源交流平台，提供试题、笔记、备考经验等公益共享
+
 </div>
 
 ---
