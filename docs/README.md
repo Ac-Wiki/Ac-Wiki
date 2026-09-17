@@ -171,7 +171,7 @@ Ac-Wiki 是一个由志愿者驱动的公益项目。每一份贡献——无论
   <tr>
     <td><a href="https://github.com/sikouhjw/jxust-Learning-database"><strong>江西理工大学</strong> · 学习资料库</a></td>
     <td><a href="https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie"><strong>华中科技大学</strong> · 学解</a></td>
-    <td></td>
+    <td><a href="https://www.iuestc.com/"><strong>电子科技大学</strong> · UESTC Byte Lib</a></td>
   </tr>
 </table>
 

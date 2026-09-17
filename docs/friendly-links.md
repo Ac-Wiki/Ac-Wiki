@@ -74,6 +74,12 @@
 
     中国科学技术大学计算机课程
 
+- :material-school:{ .lg .middle } [**电子科技大学 · UESTC Byte Lib**](https://www.iuestc.com/)
+
+    ***
+
+    电子科技大学课程资料站，覆盖公共必修课、计算机学院、医学院、软件学院等 12 个分类、90+ 份公开复习材料
+
 - :material-school:{ .lg .middle } [**上海交大 · 课程资料**](https://github.com/CoolPhilChen/SJTU-Courses/)
 
     ***
