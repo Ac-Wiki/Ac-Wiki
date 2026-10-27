@@ -139,6 +139,10 @@
 
                     窗口管理工具，日常使用开源版本够用了，也可以付费升级到 pro
 
+- ### [LayoutKeeper](https://github.com/tumingke0/LayoutKeeper)
+
+    外接显示器窗口与屏幕管理工具：拔插或唤醒外接屏后自动把窗口恢复到原来的位置和所属桌面（Space），支持按机身不同雷雳/USB-C 接口自动切换显示器排列、外接屏 DDC 硬件调光及跟随 MacBook 内建屏幕环境光自动增减亮度，内置 4 档防休眠。开源免费
+
                 </div>
 
 ## Android
